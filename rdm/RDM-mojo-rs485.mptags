@@ -1,0 +1,977 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ADDRSEP1::","	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	7;"	d	line:7
+ADDRSEP2::":"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	6;"	d	line:6
+ADDR_EEPROM::0x0000	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	15;"	d	line:15
+ANNC::"ANNC"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\commands.h	5;"	d	line:5
+BAUD::"BAUD"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\commands.h	2;"	d	line:2
+BAUDCON::BAUDCTL	C:\MCC18\h\usart.h	298;"	d	line:298
+BAUD_16_BIT_RATE::0b00001000	C:\MCC18\h\usart.h	136;"	d	line:136
+BAUD_16_BIT_RATE::0b11111111	C:\MCC18\h\usart.h	151;"	d	line:151
+BAUD_8_BIT_RATE::0b00000000	C:\MCC18\h\usart.h	137;"	d	line:137
+BAUD_8_BIT_RATE::0b11110111	C:\MCC18\h\usart.h	152;"	d	line:152
+BAUD_AUTO_MASK::(~BAUD_AUTO_ON)	C:\MCC18\h\usart.h	146;"	d	line:146
+BAUD_AUTO_OFF::0b00000000	C:\MCC18\h\usart.h	145;"	d	line:145
+BAUD_AUTO_OFF::0b11111110	C:\MCC18\h\usart.h	156;"	d	line:156
+BAUD_AUTO_ON::0b00000001	C:\MCC18\h\usart.h	144;"	d	line:144
+BAUD_AUTO_ON::0b11111111	C:\MCC18\h\usart.h	155;"	d	line:155
+BAUD_BIT_RATE::(~BAUD_16_BIT_RATE)	C:\MCC18\h\usart.h	138;"	d	line:138
+BAUD_IDLE_CLK_HIGH::0b00010000	C:\MCC18\h\usart.h	132;"	d	line:132
+BAUD_IDLE_CLK_HIGH::0b11111111	C:\MCC18\h\usart.h	149;"	d	line:149
+BAUD_IDLE_CLK_LOW::0b00000000	C:\MCC18\h\usart.h	133;"	d	line:133
+BAUD_IDLE_CLK_LOW::0b11101111	C:\MCC18\h\usart.h	150;"	d	line:150
+BAUD_IDLE_CLK_MASK::(~BAUD_IDLE_CLK_HIGH)	C:\MCC18\h\usart.h	134;"	d	line:134
+BAUD_IDLE_RX_PIN_STATE_HIGH::0b00100000	C:\MCC18\h\usart.h	283;"	d	line:283
+BAUD_IDLE_RX_PIN_STATE_HIGH::0b11011111	C:\MCC18\h\usart.h	290;"	d	line:290
+BAUD_IDLE_RX_PIN_STATE_LOW::0b00000000	C:\MCC18\h\usart.h	284;"	d	line:284
+BAUD_IDLE_RX_PIN_STATE_LOW::0b11111111	C:\MCC18\h\usart.h	291;"	d	line:291
+BAUD_IDLE_TX_PIN_STATE_HIGH::0b00010000	C:\MCC18\h\usart.h	285;"	d	line:285
+BAUD_IDLE_TX_PIN_STATE_HIGH::0b11101111	C:\MCC18\h\usart.h	292;"	d	line:292
+BAUD_IDLE_TX_PIN_STATE_LOW::0b00000000	C:\MCC18\h\usart.h	286;"	d	line:286
+BAUD_IDLE_TX_PIN_STATE_LOW::0b11111111	C:\MCC18\h\usart.h	293;"	d	line:293
+BAUD_WAKEUP_MASK::(~BAUD_WAKEUP_ON)	C:\MCC18\h\usart.h	142;"	d	line:142
+BAUD_WAKEUP_OFF::0b00000000	C:\MCC18\h\usart.h	141;"	d	line:141
+BAUD_WAKEUP_OFF::0b11111101	C:\MCC18\h\usart.h	154;"	d	line:154
+BAUD_WAKEUP_ON::0b00000010	C:\MCC18\h\usart.h	140;"	d	line:140
+BAUD_WAKEUP_ON::0b11111111	C:\MCC18\h\usart.h	153;"	d	line:153
+BROADCASTADDR::'0'	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	9;"	d	line:9
+BUFFSIZE::256	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	10;"	d	line:10
+Blink	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	102;"	f	line:102	signature:(char *sparam, char * callname)
+Blink	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	12;"	p	line:12	signature:(char *sparam, char * callname)
+Busy1USART::()(!TXSTA1bits.TRMT)	C:\MCC18\h\usart.h	200;"	d	line:200
+Busy2USART::()(!TXSTA2bits.TRMT)	C:\MCC18\h\usart.h	230;"	d	line:230
+BusyUSART::()(!TXSTAbits.TRMT)	C:\MCC18\h\usart.h	261;"	d	line:261
+Busy_eep	C:\MCC18\h\EEP.h	15;"	p	line:15	signature:( void )
+CMDFXN	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	7;"	t	line:7
+CMDSEP::";"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	5;"	d	line:5
+CMPLTMSG	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	31;"	e	line:31
+COMMAND	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	40;"	t	line:40
+Close1USART::()RCSTA1&=0b01001111,TXSTA1bit	C:\MCC18\h\usart.h	199;"	d	line:199
+Close2USART::()RCSTA2&=0b01001111,TXSTA2bit	C:\MCC18\h\usart.h	229;"	d	line:229
+CloseTimer0	C:\MCC18\h\timers.h	81;"	p	line:81	signature:(void)
+CloseTimer1	C:\MCC18\h\timers.h	143;"	p	line:143	signature:(void)
+CloseTimer1	C:\MCC18\h\timers.h	192;"	p	line:192	signature:(void)
+CloseTimer2	C:\MCC18\h\timers.h	255;"	p	line:255	signature:(void)
+CloseTimer3	C:\MCC18\h\timers.h	316;"	p	line:316	signature:(void)
+CloseTimer3	C:\MCC18\h\timers.h	371;"	p	line:371	signature:(void)
+CloseTimer4	C:\MCC18\h\timers.h	433;"	p	line:433	signature:(void)
+CloseTimer5	C:\MCC18\h\timers.h	485;"	p	line:485	signature:(void)
+CloseUSART::()RCSTA&=0b01001111,TXSTAbits.	C:\MCC18\h\usart.h	260;"	d	line:260
+DELIVER	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	15;"	e	line:15
+DRIVEDISABLE::PORTCbits.RC2=0	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	20;"	d	line:20
+DRIVEENABLE::PORTCbits.RC2=1	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	19;"	d	line:19
+DataRdy1USART::()(PIR1bits.RC1IF)	C:\MCC18\h\usart.h	189;"	d	line:189
+DataRdy1USART::()(PIR1bits.RCIF)	C:\MCC18\h\usart.h	187;"	d	line:187
+DataRdy2USART::()(PIR3bits.RC2IF)	C:\MCC18\h\usart.h	221;"	d	line:221
+DataRdyUSART::()(PIR1bits.RCIF)	C:\MCC18\h\usart.h	252;"	d	line:252
+Delay100TCYx	C:\MCC18\h\delays.h	39;"	p	line:39	signature:(PARAM_SCLASS unsigned char)
+Delay10KTCYx	C:\MCC18\h\delays.h	53;"	p	line:53	signature:(PARAM_SCLASS unsigned char)
+Delay10TCY::Delay10TCYx(1)	C:\MCC18\h\delays.h	24;"	d	line:24
+Delay10TCYx	C:\MCC18\h\delays.h	32;"	p	line:32	signature:(PARAM_SCLASS unsigned char)
+Delay1KTCYx	C:\MCC18\h\delays.h	46;"	p	line:46	signature:(PARAM_SCLASS unsigned char)
+Delay1TCY::Nop	C:\MCC18\h\delays.h	19;"	d	line:19
+ENDMSG::'	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	4;"	d	line:4
+EOF::((int)-1)	C:\MCC18\h\stdio.h	12;"	d	line:12
+EXECCMD	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	12;"	t	line:12
+ExecCommands	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	490;"	f	line:490	signature:(void)
+ExecCommands	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	97;"	p	line:97	signature:(void)
+FILE	C:\MCC18\h\stdio.h	15;"	t	line:15
+FIRSTSTRT	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	28;"	e	line:28
+FRAME_ERROR	C:\MCC18\h\usart.h	177;"	m	line:177	struct:USART1::<anonymous>
+FRAME_ERROR	C:\MCC18\h\usart.h	214;"	m	line:214	struct:USART2::<anonymous>
+FRAME_ERROR	C:\MCC18\h\usart.h	245;"	m	line:245	struct:USART::<anonymous>
+GetMsg	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	448;"	f	line:448	signature:(void)
+GetMsg	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	96;"	p	line:96	signature:(void)
+Hello	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	96;"	f	line:96	signature:(char *sparam, char * callname)
+Hello	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	13;"	p	line:13	signature:(char * sparam, char * callname)
+ID::"ID"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\commands.h	1;"	d	line:1
+LOADING	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	13;"	e	line:13
+MANUAL	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	14;"	e	line:14
+MANUALSET::"MAN"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\commands.h	7;"	d	line:7
+MAXCOMMANDLEN::8	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	12;"	d	line:12
+MAXCOMMANDS::10	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	11;"	d	line:11
+MAXPARAMLEN::16	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	13;"	d	line:13
+MAXREAGENT	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	14;"	v	line:14
+MEM_MODEL	C:\MCC18\h\string.h	795;"	d	line:795
+MEM_MODEL::far	C:\MCC18\h\stdio.h	10;"	d	line:10
+MEM_MODEL::far	C:\MCC18\h\string.h	26;"	d	line:26
+MEM_MODEL::far	C:\MCC18\h\usart.h	61;"	d	line:61
+MESSAGE	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	54;"	t	line:54
+MODULE	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	30;"	t	line:30
+MODULETYPE::"RDM"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	6;"	d	line:6
+MessageReady	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	428;"	f	line:428	signature:(void)
+MessageReady	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	101;"	p	line:101	signature:(void)
+MojoReadByte	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	75;"	f	line:75	signature:(void)
+MojoReadByte	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	62;"	p	line:62	signature:(void)
+MojoWriteByte	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	46;"	f	line:46	signature:(char c)
+MojoWriteByte	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	59;"	p	line:59	signature:(char c)
+MojoWriteRamStr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	63;"	f	line:63	signature:(ram char *data)
+MojoWriteRamStr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	60;"	p	line:60	signature:(ram char *data)
+MojoWriteRomStr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	52;"	f	line:52	signature:(const rom char *data)
+MojoWriteRomStr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	61;"	p	line:61	signature:(const rom char *data)
+MsgRx	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	437;"	f	line:437	signature:(void)
+MsgRx	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	95;"	p	line:95	signature:(void)
+NEWMSG	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	30;"	e	line:30
+NO_T0_PS_MASK::(~T0_PS_1_1)	C:\MCC18\h\timers.h	43;"	d	line:43
+NUMOFCMDS::29	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	4;"	d	line:4
+NotFound	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.c	80;"	f	line:80	signature:(char *sparam, char * callname)
+NotFound	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	21;"	p	line:21	signature:(char *sparam, char * callname)
+OVERRUN_ERROR	C:\MCC18\h\usart.h	178;"	m	line:178	struct:USART1::<anonymous>
+OVERRUN_ERROR	C:\MCC18\h\usart.h	215;"	m	line:215	struct:USART2::<anonymous>
+OVERRUN_ERROR	C:\MCC18\h\usart.h	246;"	m	line:246	struct:USART::<anonymous>
+Open1USART	C:\MCC18\h\usart.h	184;"	p	line:184	signature:(PARAM_SCLASS unsigned char config, PARAM_SCLASS unsigned int spbrg)
+Open2USART	C:\MCC18\h\usart.h	220;"	p	line:220	signature:(PARAM_SCLASS unsigned char config, PARAM_SCLASS unsigned int spbrg)
+OpenTimer0	C:\MCC18\h\timers.h	80;"	p	line:80	signature:(PARAM_SCLASS unsigned char config)
+OpenTimer1	C:\MCC18\h\timers.h	142;"	p	line:142	signature:(PARAM_SCLASS unsigned char config, PARAM_SCLASS unsigned char config1)
+OpenTimer1	C:\MCC18\h\timers.h	191;"	p	line:191	signature:(PARAM_SCLASS unsigned char config)
+OpenTimer2	C:\MCC18\h\timers.h	254;"	p	line:254	signature:(PARAM_SCLASS unsigned char config)
+OpenTimer3	C:\MCC18\h\timers.h	315;"	p	line:315	signature:(PARAM_SCLASS unsigned char config)
+OpenTimer3	C:\MCC18\h\timers.h	370;"	p	line:370	signature:(PARAM_SCLASS unsigned char config, PARAM_SCLASS unsigned char config1)
+OpenTimer4	C:\MCC18\h\timers.h	432;"	p	line:432	signature:(PARAM_SCLASS unsigned char config)
+OpenTimer5	C:\MCC18\h\timers.h	486;"	p	line:486	signature:(PARAM_SCLASS unsigned char, PARAM_SCLASS unsigned int)
+OpenUSART	C:\MCC18\h\usart.h	251;"	p	line:251	signature:(PARAM_SCLASS unsigned char config, PARAM_SCLASS unsigned spbrg)
+PARAMSEP::"="	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	8;"	d	line:8
+PARAM_SCLASS::auto	C:\MCC18\h\EEP.h	11;"	d	line:11
+PARAM_SCLASS::auto	C:\MCC18\h\ctype.h	10;"	d	line:10
+PARAM_SCLASS::auto	C:\MCC18\h\delays.h	21;"	d	line:21
+PARAM_SCLASS::auto	C:\MCC18\h\timers.h	17;"	d	line:17
+PARAM_SCLASS::auto	C:\MCC18\h\usart.h	65;"	d	line:65
+PARAM_SCLASS::static	C:\MCC18\h\ctype.h	12;"	d	line:12
+PrintCommands	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	461;"	f	line:461	signature:(void)
+PrintCommands	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	98;"	p	line:98	signature:(void)
+PrintCurrentMsg	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	535;"	f	line:535	signature:(void)
+PrintCurrentMsg	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	104;"	p	line:104	signature:(void)
+RAND_MAX::32767	C:\MCC18\h\stdlib.h	117;"	d	line:117
+RDM2Deliver	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	80;"	f	line:80	signature:(void)
+RDM2Deliver	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	56;"	p	line:56	signature:(void)
+RDM2Load	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	70;"	f	line:70	signature:(void)
+RDM2Load	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	53;"	p	line:53	signature:(void)
+RDM2Manual	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	74;"	f	line:74	signature:(void)
+RDM2Manual	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	54;"	p	line:54	signature:(void)
+RDM2Standby	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	66;"	f	line:66	signature:(void)
+RDM2Standby	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	52;"	p	line:52	signature:(void)
+RDMDeliver	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	84;"	f	line:84	signature:(void)
+RDMRun	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	104;"	f	line:104	signature:(void)
+RDMRun	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	51;"	p	line:51	signature:(void)
+RDMSetReagent	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	77;"	f	line:77	signature:(unsigned char reagent)
+RDMSetReagent	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	55;"	p	line:55	signature:(unsigned char reagent)
+RDMSetup	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	61;"	f	line:61	signature:(void)
+RDMSetup	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	50;"	p	line:50	signature:(void)
+RDMVALVES::PORTB	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	8;"	d	line:8
+RDMcmds_h	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	2;"	d	line:2
+RDMmodule	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	27;"	s	line:27
+REAGENT1	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	19;"	e	line:19
+REAGENT2	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	20;"	e	line:20
+REAGENT3	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	21;"	e	line:21
+REAGENT4	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	22;"	e	line:22
+RX_NINE	C:\MCC18\h\usart.h	175;"	m	line:175	struct:USART1::<anonymous>
+RX_NINE	C:\MCC18\h\usart.h	212;"	m	line:212	struct:USART2::<anonymous>
+RX_NINE	C:\MCC18\h\usart.h	243;"	m	line:243	struct:USART::<anonymous>
+Read1USART	C:\MCC18\h\usart.h	192;"	p	line:192	signature:(void)
+Read2USART	C:\MCC18\h\usart.h	222;"	p	line:222	signature:(void)
+ReadTimer0	C:\MCC18\h\timers.h	82;"	p	line:82	signature:(void)
+ReadTimer1	C:\MCC18\h\timers.h	144;"	p	line:144	signature:(void)
+ReadTimer1	C:\MCC18\h\timers.h	193;"	p	line:193	signature:(void)
+ReadTimer2::TMR2	C:\MCC18\h\timers.h	252;"	d	line:252
+ReadTimer3	C:\MCC18\h\timers.h	317;"	p	line:317	signature:(void)
+ReadTimer3	C:\MCC18\h\timers.h	372;"	p	line:372	signature:(void)
+ReadTimer4::TMR4	C:\MCC18\h\timers.h	431;"	d	line:431
+ReadTimer5	C:\MCC18\h\timers.h	487;"	p	line:487	signature:(void)
+ReadUSART	C:\MCC18\h\usart.h	253;"	p	line:253	signature:(void)
+Read_b_eep	C:\MCC18\h\EEP.h	16;"	p	line:16	signature:(PARAM_SCLASS unsigned int badd )
+ReadyForNextMsg	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	521;"	f	line:521	signature:(void)
+ReadyForNextMsg	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	103;"	p	line:103	signature:(void)
+Respond	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	511;"	f	line:511	signature:(void)
+Respond	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	102;"	p	line:102	signature:(void)
+SAVEBAUD::"SAVEBAUD"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\commands.h	3;"	d	line:3
+SBADCOMMAND::"?BADCMD"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojoerror.h	7;"	d	line:7
+SBADPARAM::"?BADPARAM"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojoerror.h	8;"	d	line:8
+SCMDTOOLONG::"?CMDTOOLONG"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojoerror.h	4;"	d	line:4
+SCOMPLETE::"COMPLETE"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojoerror.h	10;"	d	line:10
+SECSTRT	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	29;"	e	line:29
+SETTRISDRIVER::TRISCbits.TRISC2=0	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	18;"	d	line:18
+SMSGTOOLONG::"?MSGTOOLONG"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojoerror.h	6;"	d	line:6
+SNOSENDER::"?NOSENDER"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojoerror.h	9;"	d	line:9
+SPARAMTOOLONG::"?PARAMTOOLONG"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojoerror.h	5;"	d	line:5
+STANDBY	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	12;"	e	line:12
+STARTUP	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	11;"	e	line:11
+STATE::"STATE"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\commands.h	6;"	d	line:6
+STRTOK_R_H	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\strtok_r.h	3;"	d	line:3
+SetTmrCCPSrc	C:\MCC18\h\timers.h	577;"	p	line:577	signature:( PARAM_SCLASS unsigned char )
+T0_16BIT::0b00000000	C:\MCC18\h\timers.h	30;"	d	line:30
+T0_16BIT::0b10111111	C:\MCC18\h\timers.h	62;"	d	line:62
+T0_8BIT::0b01000000	C:\MCC18\h\timers.h	31;"	d	line:31
+T0_8BIT::0b11111111	C:\MCC18\h\timers.h	63;"	d	line:63
+T0_BIT_MASK::(~T0_8BIT)	C:\MCC18\h\timers.h	32;"	d	line:32
+T0_EDGE_FALL::0b00010000	C:\MCC18\h\timers.h	39;"	d	line:39
+T0_EDGE_FALL::0b11111111	C:\MCC18\h\timers.h	67;"	d	line:67
+T0_EDGE_MASK::(~T0_EDGE_FALL)	C:\MCC18\h\timers.h	40;"	d	line:40
+T0_EDGE_RISE::0b00000000	C:\MCC18\h\timers.h	38;"	d	line:38
+T0_EDGE_RISE::0b11101111	C:\MCC18\h\timers.h	66;"	d	line:66
+T0_PS_1_128::0b00000110	C:\MCC18\h\timers.h	51;"	d	line:51
+T0_PS_1_128::0b11110110	C:\MCC18\h\timers.h	75;"	d	line:75
+T0_PS_1_16::0b00000011	C:\MCC18\h\timers.h	48;"	d	line:48
+T0_PS_1_16::0b11110011	C:\MCC18\h\timers.h	72;"	d	line:72
+T0_PS_1_1::0b00001000	C:\MCC18\h\timers.h	42;"	d	line:42
+T0_PS_1_1::0b11111111	C:\MCC18\h\timers.h	68;"	d	line:68
+T0_PS_1_256::0b00000111	C:\MCC18\h\timers.h	52;"	d	line:52
+T0_PS_1_256::0b11110111	C:\MCC18\h\timers.h	76;"	d	line:76
+T0_PS_1_2::0b00000000	C:\MCC18\h\timers.h	45;"	d	line:45
+T0_PS_1_2::0b11110000	C:\MCC18\h\timers.h	69;"	d	line:69
+T0_PS_1_32::0b00000100	C:\MCC18\h\timers.h	49;"	d	line:49
+T0_PS_1_32::0b11110100	C:\MCC18\h\timers.h	73;"	d	line:73
+T0_PS_1_4::0b00000001	C:\MCC18\h\timers.h	46;"	d	line:46
+T0_PS_1_4::0b11110001	C:\MCC18\h\timers.h	70;"	d	line:70
+T0_PS_1_64::0b00000101	C:\MCC18\h\timers.h	50;"	d	line:50
+T0_PS_1_64::0b11110101	C:\MCC18\h\timers.h	74;"	d	line:74
+T0_PS_1_8::0b00000010	C:\MCC18\h\timers.h	47;"	d	line:47
+T0_PS_1_8::0b11110010	C:\MCC18\h\timers.h	71;"	d	line:71
+T0_PS_MASK::(~T0_PS_1_256)	C:\MCC18\h\timers.h	53;"	d	line:53
+T0_SOURCE_EXT::0b00100000	C:\MCC18\h\timers.h	35;"	d	line:35
+T0_SOURCE_EXT::0b11111111	C:\MCC18\h\timers.h	65;"	d	line:65
+T0_SOURCE_INT::0b00000000	C:\MCC18\h\timers.h	34;"	d	line:34
+T0_SOURCE_INT::0b11011111	C:\MCC18\h\timers.h	64;"	d	line:64
+T0_SOURCE_MASK::(~T0_SOURCE_EXT)	C:\MCC18\h\timers.h	36;"	d	line:36
+T12_CCP12_T34_CCP345::0b01000000	C:\MCC18\h\timers.h	538;"	d	line:538
+T12_CCP12_T34_CCP345::0b11110111	C:\MCC18\h\timers.h	544;"	d	line:544
+T12_CCP1_T34_CCP2345::0b00001000	C:\MCC18\h\timers.h	539;"	d	line:539
+T12_CCP1_T34_CCP2345::0b10111111	C:\MCC18\h\timers.h	545;"	d	line:545
+T12_CCP1_T34_CCP2::0b00000001	C:\MCC18\h\timers.h	566;"	d	line:566
+T12_CCP1_T34_CCP2::0b11111101	C:\MCC18\h\timers.h	571;"	d	line:571
+T12_SOURCE_CCP::0b00000000	C:\MCC18\h\timers.h	540;"	d	line:540
+T12_SOURCE_CCP::0b00000000	C:\MCC18\h\timers.h	567;"	d	line:567
+T12_SOURCE_CCP::0b10110111	C:\MCC18\h\timers.h	546;"	d	line:546
+T12_SOURCE_CCP::0b11111100	C:\MCC18\h\timers.h	572;"	d	line:572
+T1_16BIT_RW::0b00000001	C:\MCC18\h\timers.h	115;"	d	line:115
+T1_16BIT_RW::0b01000000	C:\MCC18\h\timers.h	152;"	d	line:152
+T1_16BIT_RW::0b11111111	C:\MCC18\h\timers.h	137;"	d	line:137
+T1_16BIT_RW::0b11111111	C:\MCC18\h\timers.h	177;"	d	line:177
+T1_8BIT_RW::0b00000000	C:\MCC18\h\timers.h	114;"	d	line:114
+T1_8BIT_RW::0b00000000	C:\MCC18\h\timers.h	151;"	d	line:151
+T1_8BIT_RW::0b10111111	C:\MCC18\h\timers.h	176;"	d	line:176
+T1_8BIT_RW::0b11111110	C:\MCC18\h\timers.h	136;"	d	line:136
+T1_BIT_RW_MASK::(~T1_16BIT_RW)	C:\MCC18\h\timers.h	116;"	d	line:116
+T1_BIT_RW_MASK::(~T1_16BIT_RW)	C:\MCC18\h\timers.h	138;"	d	line:138
+T1_BIT_RW_MASK::(~T1_16BIT_RW)	C:\MCC18\h\timers.h	153;"	d	line:153
+T1_CCP1_T3_CCP2::0b00001000	C:\MCC18\h\timers.h	553;"	d	line:553
+T1_CCP1_T3_CCP2::0b10111111	C:\MCC18\h\timers.h	559;"	d	line:559
+T1_OSC1EN_OFF::0b00000000	C:\MCC18\h\timers.h	106;"	d	line:106
+T1_OSC1EN_OFF::0b00000000	C:\MCC18\h\timers.h	161;"	d	line:161
+T1_OSC1EN_OFF::0b11110111	C:\MCC18\h\timers.h	182;"	d	line:182
+T1_OSC1EN_OFF::0b11111011	C:\MCC18\h\timers.h	130;"	d	line:130
+T1_OSC1EN_ON::0b00000100	C:\MCC18\h\timers.h	107;"	d	line:107
+T1_OSC1EN_ON::0b00001000	C:\MCC18\h\timers.h	162;"	d	line:162
+T1_OSC1EN_ON::0b11111111	C:\MCC18\h\timers.h	131;"	d	line:131
+T1_OSC1EN_ON::0b11111111	C:\MCC18\h\timers.h	183;"	d	line:183
+T1_OSC_MASK::(~T1_OSC1EN_ON)	C:\MCC18\h\timers.h	108;"	d	line:108
+T1_OSC_MASK::(~T1_OSC1EN_ON)	C:\MCC18\h\timers.h	163;"	d	line:163
+T1_PS_1_1::0b00000000	C:\MCC18\h\timers.h	100;"	d	line:100
+T1_PS_1_1::0b00000000	C:\MCC18\h\timers.h	155;"	d	line:155
+T1_PS_1_1::0b11001111	C:\MCC18\h\timers.h	178;"	d	line:178
+T1_PS_1_1::0b11100111	C:\MCC18\h\timers.h	125;"	d	line:125
+T1_PS_1_2::0b00001000	C:\MCC18\h\timers.h	101;"	d	line:101
+T1_PS_1_2::0b00010000	C:\MCC18\h\timers.h	156;"	d	line:156
+T1_PS_1_2::0b11011111	C:\MCC18\h\timers.h	179;"	d	line:179
+T1_PS_1_2::0b11101111	C:\MCC18\h\timers.h	126;"	d	line:126
+T1_PS_1_4::0b00010000	C:\MCC18\h\timers.h	102;"	d	line:102
+T1_PS_1_4::0b00100000	C:\MCC18\h\timers.h	157;"	d	line:157
+T1_PS_1_4::0b11101111	C:\MCC18\h\timers.h	180;"	d	line:180
+T1_PS_1_4::0b11110111	C:\MCC18\h\timers.h	127;"	d	line:127
+T1_PS_1_8::0b00011000	C:\MCC18\h\timers.h	103;"	d	line:103
+T1_PS_1_8::0b00110000	C:\MCC18\h\timers.h	158;"	d	line:158
+T1_PS_1_8::0b11111111	C:\MCC18\h\timers.h	128;"	d	line:128
+T1_PS_1_8::0b11111111	C:\MCC18\h\timers.h	181;"	d	line:181
+T1_PS_MASK::(~T1_PS_1_8)	C:\MCC18\h\timers.h	104;"	d	line:104
+T1_PS_MASK::(~T1_PS_1_8)	C:\MCC18\h\timers.h	159;"	d	line:159
+T1_SOURCE_CAPOSC::0b00100000	C:\MCC18\h\timers.h	95;"	d	line:95
+T1_SOURCE_CAPOSC::0b10111111	C:\MCC18\h\timers.h	121;"	d	line:121
+T1_SOURCE_CCP::0b00000000	C:\MCC18\h\timers.h	554;"	d	line:554
+T1_SOURCE_CCP::0b10110111	C:\MCC18\h\timers.h	560;"	d	line:560
+T1_SOURCE_EXT::0b00000010	C:\MCC18\h\timers.h	170;"	d	line:170
+T1_SOURCE_EXT::0b11111111	C:\MCC18\h\timers.h	187;"	d	line:187
+T1_SOURCE_FOSC::0b01100000	C:\MCC18\h\timers.h	97;"	d	line:97
+T1_SOURCE_FOSC::0b11111111	C:\MCC18\h\timers.h	123;"	d	line:123
+T1_SOURCE_FOSC_4::0b01000000	C:\MCC18\h\timers.h	96;"	d	line:96
+T1_SOURCE_FOSC_4::0b11011111	C:\MCC18\h\timers.h	122;"	d	line:122
+T1_SOURCE_INT::0b00000000	C:\MCC18\h\timers.h	169;"	d	line:169
+T1_SOURCE_INT::0b11111101	C:\MCC18\h\timers.h	186;"	d	line:186
+T1_SOURCE_MASK::(~T1_SOURCE_EXT)	C:\MCC18\h\timers.h	171;"	d	line:171
+T1_SOURCE_MASK::(~T1_SOURCE_FOSC)	C:\MCC18\h\timers.h	98;"	d	line:98
+T1_SOURCE_PINOSC::0b00000000	C:\MCC18\h\timers.h	94;"	d	line:94
+T1_SOURCE_PINOSC::0b10011111	C:\MCC18\h\timers.h	120;"	d	line:120
+T1_SYNC_EXT_OFF::0b00000010	C:\MCC18\h\timers.h	111;"	d	line:111
+T1_SYNC_EXT_OFF::0b00000100	C:\MCC18\h\timers.h	166;"	d	line:166
+T1_SYNC_EXT_OFF::0b11111111	C:\MCC18\h\timers.h	134;"	d	line:134
+T1_SYNC_EXT_OFF::0b11111111	C:\MCC18\h\timers.h	185;"	d	line:185
+T1_SYNC_EXT_ON::0b00000000	C:\MCC18\h\timers.h	110;"	d	line:110
+T1_SYNC_EXT_ON::0b00000000	C:\MCC18\h\timers.h	165;"	d	line:165
+T1_SYNC_EXT_ON::0b11111011	C:\MCC18\h\timers.h	184;"	d	line:184
+T1_SYNC_EXT_ON::0b11111101	C:\MCC18\h\timers.h	133;"	d	line:133
+T1_SYNC_MASK::(~T1_SYNC_EXT_OFF)	C:\MCC18\h\timers.h	112;"	d	line:112
+T1_SYNC_MASK::(~T1_SYNC_EXT_OFF)	C:\MCC18\h\timers.h	167;"	d	line:167
+T2_POST_1_10::0b01001000	C:\MCC18\h\timers.h	213;"	d	line:213
+T2_POST_1_10::0b11001111	C:\MCC18\h\timers.h	238;"	d	line:238
+T2_POST_1_11::0b01010000	C:\MCC18\h\timers.h	214;"	d	line:214
+T2_POST_1_11::0b11010111	C:\MCC18\h\timers.h	239;"	d	line:239
+T2_POST_1_12::0b01011000	C:\MCC18\h\timers.h	215;"	d	line:215
+T2_POST_1_12::0b11011111	C:\MCC18\h\timers.h	240;"	d	line:240
+T2_POST_1_13::0b01100000	C:\MCC18\h\timers.h	216;"	d	line:216
+T2_POST_1_13::0b11100111	C:\MCC18\h\timers.h	241;"	d	line:241
+T2_POST_1_14::0b01101000	C:\MCC18\h\timers.h	217;"	d	line:217
+T2_POST_1_14::0b11101111	C:\MCC18\h\timers.h	242;"	d	line:242
+T2_POST_1_15::0b01110000	C:\MCC18\h\timers.h	218;"	d	line:218
+T2_POST_1_15::0b11110111	C:\MCC18\h\timers.h	243;"	d	line:243
+T2_POST_1_16::0b01111000	C:\MCC18\h\timers.h	219;"	d	line:219
+T2_POST_1_16::0b11111111	C:\MCC18\h\timers.h	244;"	d	line:244
+T2_POST_1_1::0b00000000	C:\MCC18\h\timers.h	204;"	d	line:204
+T2_POST_1_1::0b10000111	C:\MCC18\h\timers.h	229;"	d	line:229
+T2_POST_1_2::0b00001000	C:\MCC18\h\timers.h	205;"	d	line:205
+T2_POST_1_2::0b10001111	C:\MCC18\h\timers.h	230;"	d	line:230
+T2_POST_1_3::0b00010000	C:\MCC18\h\timers.h	206;"	d	line:206
+T2_POST_1_3::0b10010111	C:\MCC18\h\timers.h	231;"	d	line:231
+T2_POST_1_4::0b00011000	C:\MCC18\h\timers.h	207;"	d	line:207
+T2_POST_1_4::0b10011111	C:\MCC18\h\timers.h	232;"	d	line:232
+T2_POST_1_5::0b00100000	C:\MCC18\h\timers.h	208;"	d	line:208
+T2_POST_1_5::0b10100111	C:\MCC18\h\timers.h	233;"	d	line:233
+T2_POST_1_6::0b00101000	C:\MCC18\h\timers.h	209;"	d	line:209
+T2_POST_1_6::0b10101111	C:\MCC18\h\timers.h	234;"	d	line:234
+T2_POST_1_7::0b00110000	C:\MCC18\h\timers.h	210;"	d	line:210
+T2_POST_1_7::0b10110111	C:\MCC18\h\timers.h	235;"	d	line:235
+T2_POST_1_8::0b00111000	C:\MCC18\h\timers.h	211;"	d	line:211
+T2_POST_1_8::0b10111111	C:\MCC18\h\timers.h	236;"	d	line:236
+T2_POST_1_9::0b01000000	C:\MCC18\h\timers.h	212;"	d	line:212
+T2_POST_1_9::0b11000111	C:\MCC18\h\timers.h	237;"	d	line:237
+T2_POST_MASK::(~T2_POST_1_16)	C:\MCC18\h\timers.h	220;"	d	line:220
+T2_PS_1_16::0b00000011	C:\MCC18\h\timers.h	224;"	d	line:224
+T2_PS_1_16::0b11111110	C:\MCC18\h\timers.h	247;"	d	line:247
+T2_PS_1_1::0b00000000	C:\MCC18\h\timers.h	222;"	d	line:222
+T2_PS_1_1::0b11111100	C:\MCC18\h\timers.h	245;"	d	line:245
+T2_PS_1_4::0b00000001	C:\MCC18\h\timers.h	223;"	d	line:223
+T2_PS_1_4::0b11111101	C:\MCC18\h\timers.h	246;"	d	line:246
+T2_PS_MASK::(~T2_PS_1_16)	C:\MCC18\h\timers.h	225;"	d	line:225
+T34_SOURCE_CCP12::0b00000011	C:\MCC18\h\timers.h	565;"	d	line:565
+T34_SOURCE_CCP12::0b11111111	C:\MCC18\h\timers.h	570;"	d	line:570
+T34_SOURCE_CCP::0b01001000	C:\MCC18\h\timers.h	537;"	d	line:537
+T34_SOURCE_CCP::0b11111111	C:\MCC18\h\timers.h	543;"	d	line:543
+T3_16BIT_RW::0b00000001	C:\MCC18\h\timers.h	266;"	d	line:266
+T3_16BIT_RW::0b00000001	C:\MCC18\h\timers.h	344;"	d	line:344
+T3_16BIT_RW::0b11111111	C:\MCC18\h\timers.h	285;"	d	line:285
+T3_16BIT_RW::0b11111111	C:\MCC18\h\timers.h	366;"	d	line:366
+T3_8BIT_RW::0b00000000	C:\MCC18\h\timers.h	265;"	d	line:265
+T3_8BIT_RW::0b00000000	C:\MCC18\h\timers.h	343;"	d	line:343
+T3_8BIT_RW::0b11111110	C:\MCC18\h\timers.h	284;"	d	line:284
+T3_8BIT_RW::0b11111110	C:\MCC18\h\timers.h	365;"	d	line:365
+T3_BIT_MASK::(~T3_16BIT_RW)	C:\MCC18\h\timers.h	267;"	d	line:267
+T3_BIT_RW_MASK::(~T1_16BIT_RW)	C:\MCC18\h\timers.h	345;"	d	line:345
+T3_BIT_RW_MASK::(~T1_16BIT_RW)	C:\MCC18\h\timers.h	367;"	d	line:367
+T3_OSC1EN_OFF::0b00000000	C:\MCC18\h\timers.h	335;"	d	line:335
+T3_OSC1EN_OFF::0b11111011	C:\MCC18\h\timers.h	359;"	d	line:359
+T3_OSC1EN_OFF::T1CONbits.T1OSCEN=0	C:\MCC18\h\timers.h	311;"	d	line:311
+T3_OSC1EN_ON::0b00000100	C:\MCC18\h\timers.h	336;"	d	line:336
+T3_OSC1EN_ON::0b11111111	C:\MCC18\h\timers.h	360;"	d	line:360
+T3_OSC1EN_ON::T1CONbits.T1OSCEN=1	C:\MCC18\h\timers.h	303;"	d	line:303
+T3_OSC_MASK::(~T1_OSC1EN_ON)	C:\MCC18\h\timers.h	337;"	d	line:337
+T3_PS_1_1::0b00000000	C:\MCC18\h\timers.h	269;"	d	line:269
+T3_PS_1_1::0b00000000	C:\MCC18\h\timers.h	329;"	d	line:329
+T3_PS_1_1::0b11001111	C:\MCC18\h\timers.h	286;"	d	line:286
+T3_PS_1_1::0b11100111	C:\MCC18\h\timers.h	354;"	d	line:354
+T3_PS_1_2::0b00001000	C:\MCC18\h\timers.h	330;"	d	line:330
+T3_PS_1_2::0b00010000	C:\MCC18\h\timers.h	270;"	d	line:270
+T3_PS_1_2::0b11011111	C:\MCC18\h\timers.h	287;"	d	line:287
+T3_PS_1_2::0b11101111	C:\MCC18\h\timers.h	355;"	d	line:355
+T3_PS_1_4::0b00010000	C:\MCC18\h\timers.h	331;"	d	line:331
+T3_PS_1_4::0b00100000	C:\MCC18\h\timers.h	271;"	d	line:271
+T3_PS_1_4::0b11101111	C:\MCC18\h\timers.h	288;"	d	line:288
+T3_PS_1_4::0b11110111	C:\MCC18\h\timers.h	356;"	d	line:356
+T3_PS_1_8::0b00011000	C:\MCC18\h\timers.h	332;"	d	line:332
+T3_PS_1_8::0b00110000	C:\MCC18\h\timers.h	272;"	d	line:272
+T3_PS_1_8::0b11111111	C:\MCC18\h\timers.h	289;"	d	line:289
+T3_PS_1_8::0b11111111	C:\MCC18\h\timers.h	357;"	d	line:357
+T3_PS_MASK::(~T1_PS_1_8)	C:\MCC18\h\timers.h	333;"	d	line:333
+T3_PS_MASK::(~T3_PS_1_8)	C:\MCC18\h\timers.h	273;"	d	line:273
+T3_SOURCE_CAPOSC::0b00100000	C:\MCC18\h\timers.h	324;"	d	line:324
+T3_SOURCE_CAPOSC::0b10111111	C:\MCC18\h\timers.h	350;"	d	line:350
+T3_SOURCE_CCP::0b01001000	C:\MCC18\h\timers.h	552;"	d	line:552
+T3_SOURCE_CCP::0b11111111	C:\MCC18\h\timers.h	558;"	d	line:558
+T3_SOURCE_EXT::0b00000010	C:\MCC18\h\timers.h	280;"	d	line:280
+T3_SOURCE_EXT::0b11111111	C:\MCC18\h\timers.h	293;"	d	line:293
+T3_SOURCE_FOSC::0b01100000	C:\MCC18\h\timers.h	326;"	d	line:326
+T3_SOURCE_FOSC::0b11111111	C:\MCC18\h\timers.h	352;"	d	line:352
+T3_SOURCE_FOSC_4::0b01000000	C:\MCC18\h\timers.h	325;"	d	line:325
+T3_SOURCE_FOSC_4::0b11011111	C:\MCC18\h\timers.h	351;"	d	line:351
+T3_SOURCE_INT::0b00000000	C:\MCC18\h\timers.h	279;"	d	line:279
+T3_SOURCE_INT::0b11111101	C:\MCC18\h\timers.h	292;"	d	line:292
+T3_SOURCE_MASK::(~T1_SOURCE_FOSC)	C:\MCC18\h\timers.h	327;"	d	line:327
+T3_SOURCE_MASK::(~T3_SOURCE_EXT)	C:\MCC18\h\timers.h	281;"	d	line:281
+T3_SOURCE_PINOSC::0b00000000	C:\MCC18\h\timers.h	323;"	d	line:323
+T3_SOURCE_PINOSC::0b10011111	C:\MCC18\h\timers.h	349;"	d	line:349
+T3_SYNC_EXT_OFF::0b00000010	C:\MCC18\h\timers.h	340;"	d	line:340
+T3_SYNC_EXT_OFF::0b00000100	C:\MCC18\h\timers.h	276;"	d	line:276
+T3_SYNC_EXT_OFF::0b11111111	C:\MCC18\h\timers.h	291;"	d	line:291
+T3_SYNC_EXT_OFF::0b11111111	C:\MCC18\h\timers.h	363;"	d	line:363
+T3_SYNC_EXT_ON::0b00000000	C:\MCC18\h\timers.h	275;"	d	line:275
+T3_SYNC_EXT_ON::0b00000000	C:\MCC18\h\timers.h	339;"	d	line:339
+T3_SYNC_EXT_ON::0b11111011	C:\MCC18\h\timers.h	290;"	d	line:290
+T3_SYNC_EXT_ON::0b11111101	C:\MCC18\h\timers.h	362;"	d	line:362
+T3_SYNC_MASK::(~T1_SYNC_EXT_OFF)	C:\MCC18\h\timers.h	341;"	d	line:341
+T3_SYNC_MASK::(~T3_SYNC_EXT_OFF)	C:\MCC18\h\timers.h	277;"	d	line:277
+T4_POST_1_10::0b01001000	C:\MCC18\h\timers.h	393;"	d	line:393
+T4_POST_1_10::0b11001111	C:\MCC18\h\timers.h	417;"	d	line:417
+T4_POST_1_11::0b01010000	C:\MCC18\h\timers.h	394;"	d	line:394
+T4_POST_1_11::0b11010111	C:\MCC18\h\timers.h	418;"	d	line:418
+T4_POST_1_12::0b01011000	C:\MCC18\h\timers.h	395;"	d	line:395
+T4_POST_1_12::0b11011111	C:\MCC18\h\timers.h	419;"	d	line:419
+T4_POST_1_13::0b01100000	C:\MCC18\h\timers.h	396;"	d	line:396
+T4_POST_1_13::0b11100111	C:\MCC18\h\timers.h	420;"	d	line:420
+T4_POST_1_14::0b01101000	C:\MCC18\h\timers.h	397;"	d	line:397
+T4_POST_1_14::0b11101111	C:\MCC18\h\timers.h	421;"	d	line:421
+T4_POST_1_15::0b01110000	C:\MCC18\h\timers.h	398;"	d	line:398
+T4_POST_1_15::0b11110111	C:\MCC18\h\timers.h	422;"	d	line:422
+T4_POST_1_16::0b01111000	C:\MCC18\h\timers.h	399;"	d	line:399
+T4_POST_1_16::0b11111111	C:\MCC18\h\timers.h	423;"	d	line:423
+T4_POST_1_1::0b00000000	C:\MCC18\h\timers.h	384;"	d	line:384
+T4_POST_1_1::0b10000111	C:\MCC18\h\timers.h	408;"	d	line:408
+T4_POST_1_2::0b00001000	C:\MCC18\h\timers.h	385;"	d	line:385
+T4_POST_1_2::0b10001111	C:\MCC18\h\timers.h	409;"	d	line:409
+T4_POST_1_3::0b00010000	C:\MCC18\h\timers.h	386;"	d	line:386
+T4_POST_1_3::0b10010111	C:\MCC18\h\timers.h	410;"	d	line:410
+T4_POST_1_4::0b00011000	C:\MCC18\h\timers.h	387;"	d	line:387
+T4_POST_1_4::0b10011111	C:\MCC18\h\timers.h	411;"	d	line:411
+T4_POST_1_5::0b00100000	C:\MCC18\h\timers.h	388;"	d	line:388
+T4_POST_1_5::0b10100111	C:\MCC18\h\timers.h	412;"	d	line:412
+T4_POST_1_6::0b00101000	C:\MCC18\h\timers.h	389;"	d	line:389
+T4_POST_1_6::0b10101111	C:\MCC18\h\timers.h	413;"	d	line:413
+T4_POST_1_7::0b00110000	C:\MCC18\h\timers.h	390;"	d	line:390
+T4_POST_1_7::0b10110111	C:\MCC18\h\timers.h	414;"	d	line:414
+T4_POST_1_8::0b00111000	C:\MCC18\h\timers.h	391;"	d	line:391
+T4_POST_1_8::0b10111111	C:\MCC18\h\timers.h	415;"	d	line:415
+T4_POST_1_9::0b01000000	C:\MCC18\h\timers.h	392;"	d	line:392
+T4_POST_1_9::0b11000111	C:\MCC18\h\timers.h	416;"	d	line:416
+T4_POST_MASK::(~T4_POST_1_16)	C:\MCC18\h\timers.h	400;"	d	line:400
+T4_PS_1_16::0b00000011	C:\MCC18\h\timers.h	404;"	d	line:404
+T4_PS_1_16::0b11111111	C:\MCC18\h\timers.h	426;"	d	line:426
+T4_PS_1_1::0b00000000	C:\MCC18\h\timers.h	402;"	d	line:402
+T4_PS_1_1::0b11111100	C:\MCC18\h\timers.h	424;"	d	line:424
+T4_PS_1_4::0b00000001	C:\MCC18\h\timers.h	403;"	d	line:403
+T4_PS_1_4::0b11111101	C:\MCC18\h\timers.h	425;"	d	line:425
+T4_PS_MASK::(~T4_PS_1_16)	C:\MCC18\h\timers.h	405;"	d	line:405
+T5_CLK_EXTRN::0b00000010	C:\MCC18\h\timers.h	464;"	d	line:464
+T5_CLK_EXTRN::0b11111111	C:\MCC18\h\timers.h	481;"	d	line:481
+T5_CLK_INT::0b00000000	C:\MCC18\h\timers.h	465;"	d	line:465
+T5_CLK_INT::0b11111101	C:\MCC18\h\timers.h	482;"	d	line:482
+T5_CLK_SOURCE_MASK::(~T5_CLK_EXTRN)	C:\MCC18\h\timers.h	466;"	d	line:466
+T5_EX_CLK_NOSYNC::0b00000100	C:\MCC18\h\timers.h	461;"	d	line:461
+T5_EX_CLK_NOSYNC::0b11111111	C:\MCC18\h\timers.h	480;"	d	line:480
+T5_EX_CLK_SYNC::0b00000000	C:\MCC18\h\timers.h	460;"	d	line:460
+T5_EX_CLK_SYNC::0b11111011	C:\MCC18\h\timers.h	479;"	d	line:479
+T5_EX_CLK_SYNC_MASK::(~T5_EX_CLK_NOSYNC)	C:\MCC18\h\timers.h	462;"	d	line:462
+T5_MD_CONT_COUNT::0b00000000	C:\MCC18\h\timers.h	451;"	d	line:451
+T5_MD_CONT_COUNT::0b11011111	C:\MCC18\h\timers.h	474;"	d	line:474
+T5_MD_MASK::(~T5_MD_SNGL_SHOT)	C:\MCC18\h\timers.h	452;"	d	line:452
+T5_MD_SNGL_SHOT::0b00100000	C:\MCC18\h\timers.h	450;"	d	line:450
+T5_MD_SNGL_SHOT::0b11111111	C:\MCC18\h\timers.h	473;"	d	line:473
+T5_PS_1_1::0b00000000	C:\MCC18\h\timers.h	454;"	d	line:454
+T5_PS_1_1::0b11100111	C:\MCC18\h\timers.h	475;"	d	line:475
+T5_PS_1_2::0b00001000	C:\MCC18\h\timers.h	455;"	d	line:455
+T5_PS_1_2::0b11101111	C:\MCC18\h\timers.h	476;"	d	line:476
+T5_PS_1_4::0b00010000	C:\MCC18\h\timers.h	456;"	d	line:456
+T5_PS_1_4::0b11110111	C:\MCC18\h\timers.h	477;"	d	line:477
+T5_PS_1_8::0b00011000	C:\MCC18\h\timers.h	457;"	d	line:457
+T5_PS_1_8::0b11111111	C:\MCC18\h\timers.h	478;"	d	line:478
+T5_PS_MASK::(~T5_PS_1_8)	C:\MCC18\h\timers.h	458;"	d	line:458
+T5_SLP_DIS::0b00000000	C:\MCC18\h\timers.h	443;"	d	line:443
+T5_SLP_DIS::0b01111111	C:\MCC18\h\timers.h	470;"	d	line:470
+T5_SLP_EN::0b10000000	C:\MCC18\h\timers.h	442;"	d	line:442
+T5_SLP_EN::0b11111111	C:\MCC18\h\timers.h	469;"	d	line:469
+T5_SLP_MASK::(~T5_SLP_EN)	C:\MCC18\h\timers.h	444;"	d	line:444
+T5_SP_ENNT_MASK::(~T5_SP_EVNT_RDIS)	C:\MCC18\h\timers.h	448;"	d	line:448
+T5_SP_EVNT_RDIS::0b01000000	C:\MCC18\h\timers.h	447;"	d	line:447
+T5_SP_EVNT_RDIS::0b11111111	C:\MCC18\h\timers.h	472;"	d	line:472
+T5_SP_EVNT_REN::0b00000000	C:\MCC18\h\timers.h	446;"	d	line:446
+T5_SP_EVNT_REN::0b10111111	C:\MCC18\h\timers.h	471;"	d	line:471
+TIMER_GATE_1SHOT_MASK::(~TIMER_GATE_1SHOT_MASK)	C:\MCC18\h\timers.h	508;"	d	line:508
+TIMER_GATE_1SHOT_OFF::0b00000000	C:\MCC18\h\timers.h	507;"	d	line:507
+TIMER_GATE_1SHOT_OFF::0b11101111	C:\MCC18\h\timers.h	526;"	d	line:526
+TIMER_GATE_1SHOT_ON::0b00010000	C:\MCC18\h\timers.h	506;"	d	line:506
+TIMER_GATE_1SHOT_ON::0b11111111	C:\MCC18\h\timers.h	525;"	d	line:525
+TIMER_GATE_INT_OFF::0b00000000	C:\MCC18\h\timers.h	515;"	d	line:515
+TIMER_GATE_INT_OFF::0b11111011	C:\MCC18\h\timers.h	530;"	d	line:530
+TIMER_GATE_INT_ON::0b00000100	C:\MCC18\h\timers.h	516;"	d	line:516
+TIMER_GATE_INT_ON::0b11111111	C:\MCC18\h\timers.h	531;"	d	line:531
+TIMER_GATE_MASK::(~TIMER_GATE_ON)	C:\MCC18\h\timers.h	496;"	d	line:496
+TIMER_GATE_OFF::0b00000000	C:\MCC18\h\timers.h	495;"	d	line:495
+TIMER_GATE_OFF::0b01111111	C:\MCC18\h\timers.h	520;"	d	line:520
+TIMER_GATE_ON::0b10000000	C:\MCC18\h\timers.h	494;"	d	line:494
+TIMER_GATE_ON::0b11111111	C:\MCC18\h\timers.h	519;"	d	line:519
+TIMER_GATE_POL_HI::0b01000000	C:\MCC18\h\timers.h	498;"	d	line:498
+TIMER_GATE_POL_HI::0b11111111	C:\MCC18\h\timers.h	521;"	d	line:521
+TIMER_GATE_POL_LO::0b00000000	C:\MCC18\h\timers.h	499;"	d	line:499
+TIMER_GATE_POL_LO::0b10111111	C:\MCC18\h\timers.h	522;"	d	line:522
+TIMER_GATE_POL_MASK::(~TIMER_GATE_POL_HI)	C:\MCC18\h\timers.h	500;"	d	line:500
+TIMER_GATE_SRC_MASK::(~TIMER_GATE_SRC_T2)	C:\MCC18\h\timers.h	513;"	d	line:513
+TIMER_GATE_SRC_T0::0b00000001	C:\MCC18\h\timers.h	511;"	d	line:511
+TIMER_GATE_SRC_T0::0b11111101	C:\MCC18\h\timers.h	528;"	d	line:528
+TIMER_GATE_SRC_T1GPIN::0b00000000	C:\MCC18\h\timers.h	510;"	d	line:510
+TIMER_GATE_SRC_T1GPIN::0b11111100	C:\MCC18\h\timers.h	527;"	d	line:527
+TIMER_GATE_SRC_T2::0b00000010	C:\MCC18\h\timers.h	512;"	d	line:512
+TIMER_GATE_SRC_T2::0b11111110	C:\MCC18\h\timers.h	529;"	d	line:529
+TIMER_GATE_TOGGLE_MASK::(~TIMER_GATE_TOGGLE_ON)	C:\MCC18\h\timers.h	504;"	d	line:504
+TIMER_GATE_TOGGLE_OFF::0b00000000	C:\MCC18\h\timers.h	503;"	d	line:503
+TIMER_GATE_TOGGLE_OFF::0b11011111	C:\MCC18\h\timers.h	524;"	d	line:524
+TIMER_GATE_TOGGLE_ON::0b00100000	C:\MCC18\h\timers.h	502;"	d	line:502
+TIMER_GATE_TOGGLE_ON::0b11111111	C:\MCC18\h\timers.h	523;"	d	line:523
+TIMER_INT_MASK::(~TIMER_INT_ON)	C:\MCC18\h\timers.h	25;"	d	line:25
+TIMER_INT_OFF::0b00000000	C:\MCC18\h\timers.h	23;"	d	line:23
+TIMER_INT_OFF::0b01111111	C:\MCC18\h\timers.h	56;"	d	line:56
+TIMER_INT_ON::0b10000000	C:\MCC18\h\timers.h	24;"	d	line:24
+TIMER_INT_ON::0b11111111	C:\MCC18\h\timers.h	57;"	d	line:57
+TMR_SOURCE_CCP_MASK::(T34_CCP12)	C:\MCC18\h\timers.h	568;"	d	line:568
+TMR_SOURCE_CCP_MASK::(~T34_SOURCE_CCP)	C:\MCC18\h\timers.h	541;"	d	line:541
+TMR_SOURCE_CCP_MASK::(~T3_SOURCE_CCP)	C:\MCC18\h\timers.h	555;"	d	line:555
+TX_NINE	C:\MCC18\h\usart.h	176;"	m	line:176	struct:USART1::<anonymous>
+TX_NINE	C:\MCC18\h\usart.h	213;"	m	line:213	struct:USART2::<anonymous>
+TX_NINE	C:\MCC18\h\usart.h	244;"	m	line:244	struct:USART::<anonymous>
+Timers	C:\MCC18\h\timers.h	9;"	u	line:9
+USART	C:\MCC18\h\usart.h	238;"	u	line:238
+USART1	C:\MCC18\h\usart.h	170;"	u	line:170
+USART2	C:\MCC18\h\usart.h	207;"	u	line:207
+USART_ADDEN_MASK::(~USART_ADDEN_ON)	C:\MCC18\h\usart.h	81;"	d	line:81
+USART_ADDEN_OFF::0b00000000	C:\MCC18\h\usart.h	80;"	d	line:80
+USART_ADDEN_OFF::0b11011111	C:\MCC18\h\usart.h	119;"	d	line:119
+USART_ADDEN_ON::0b00100000	C:\MCC18\h\usart.h	79;"	d	line:79
+USART_ADDEN_ON::0b11111111	C:\MCC18\h\usart.h	118;"	d	line:118
+USART_ASYNCH_MODE::0b00000000	C:\MCC18\h\usart.h	100;"	d	line:100
+USART_ASYNCH_MODE::0b11111110	C:\MCC18\h\usart.h	117;"	d	line:117
+USART_BIT_MASK::(~USART_NINE_BIT)	C:\MCC18\h\usart.h	97;"	d	line:97
+USART_BRGH_HIGH::0b00010000	C:\MCC18\h\usart.h	83;"	d	line:83
+USART_BRGH_HIGH::0b11111111	C:\MCC18\h\usart.h	108;"	d	line:108
+USART_BRGH_LOW::0b00000000	C:\MCC18\h\usart.h	84;"	d	line:84
+USART_BRGH_LOW::0b11101111	C:\MCC18\h\usart.h	109;"	d	line:109
+USART_BRGH_MASK::(~USART_BRGH_HIGH)	C:\MCC18\h\usart.h	85;"	d	line:85
+USART_CONT_RX::0b00001000	C:\MCC18\h\usart.h	87;"	d	line:87
+USART_CONT_RX::0b11111111	C:\MCC18\h\usart.h	110;"	d	line:110
+USART_CONT_RX_MASK::(~USART_CONT_RX)	C:\MCC18\h\usart.h	89;"	d	line:89
+USART_EIGHT_BIT::0b00000000	C:\MCC18\h\usart.h	96;"	d	line:96
+USART_EIGHT_BIT::0b11111101	C:\MCC18\h\usart.h	115;"	d	line:115
+USART_MODE_MASK::(~USART_SYNCH_MODE)	C:\MCC18\h\usart.h	101;"	d	line:101
+USART_NINE_BIT::0b00000010	C:\MCC18\h\usart.h	95;"	d	line:95
+USART_NINE_BIT::0b11111111	C:\MCC18\h\usart.h	114;"	d	line:114
+USART_RX_INT_MASK::(~USART_RX_INT_ON)	C:\MCC18\h\usart.h	77;"	d	line:77
+USART_RX_INT_OFF::0b00000000	C:\MCC18\h\usart.h	76;"	d	line:76
+USART_RX_INT_OFF::0b10111111	C:\MCC18\h\usart.h	107;"	d	line:107
+USART_RX_INT_ON::0b01000000	C:\MCC18\h\usart.h	75;"	d	line:75
+USART_RX_INT_ON::0b11111111	C:\MCC18\h\usart.h	106;"	d	line:106
+USART_SINGLE_RX::0b00000000	C:\MCC18\h\usart.h	88;"	d	line:88
+USART_SINGLE_RX::0b11110111	C:\MCC18\h\usart.h	111;"	d	line:111
+USART_SYNCH_MODE::0b00000001	C:\MCC18\h\usart.h	99;"	d	line:99
+USART_SYNCH_MODE::0b11111111	C:\MCC18\h\usart.h	116;"	d	line:116
+USART_SYNC_MASK::(~USART_SYNC_MASTER)	C:\MCC18\h\usart.h	93;"	d	line:93
+USART_SYNC_MASTER::0b00000100	C:\MCC18\h\usart.h	91;"	d	line:91
+USART_SYNC_MASTER::0b11111111	C:\MCC18\h\usart.h	112;"	d	line:112
+USART_SYNC_SLAVE::0b00000000	C:\MCC18\h\usart.h	92;"	d	line:92
+USART_SYNC_SLAVE::0b11111011	C:\MCC18\h\usart.h	113;"	d	line:113
+USART_TX_INT_MASK::(~USART_TX_INT_ON)	C:\MCC18\h\usart.h	73;"	d	line:73
+USART_TX_INT_OFF::0b00000000	C:\MCC18\h\usart.h	72;"	d	line:72
+USART_TX_INT_OFF::0b01111111	C:\MCC18\h\usart.h	105;"	d	line:105
+USART_TX_INT_ON::0b10000000	C:\MCC18\h\usart.h	71;"	d	line:71
+USART_TX_INT_ON::0b11111111	C:\MCC18\h\usart.h	104;"	d	line:104
+VERSION::"0.1"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	7;"	d	line:7
+WAITFORUSART::while(Busy1USART)	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	21;"	d	line:21
+WAITING	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	27;"	e	line:27
+WHOIS::"WHO"	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\commands.h	4;"	d	line:4
+Write1USART	C:\MCC18\h\usart.h	193;"	p	line:193	signature:(PARAM_SCLASS char data)
+Write2USART	C:\MCC18\h\usart.h	223;"	p	line:223	signature:(PARAM_SCLASS char data)
+WriteTimer0	C:\MCC18\h\timers.h	83;"	p	line:83	signature:(PARAM_SCLASS unsigned int timer0)
+WriteTimer1	C:\MCC18\h\timers.h	145;"	p	line:145	signature:(PARAM_SCLASS unsigned int timer1)
+WriteTimer1	C:\MCC18\h\timers.h	194;"	p	line:194	signature:(PARAM_SCLASS unsigned int timer1)
+WriteTimer2::(timer2)TMR2=(timer2)	C:\MCC18\h\timers.h	251;"	d	line:251
+WriteTimer3	C:\MCC18\h\timers.h	318;"	p	line:318	signature:(PARAM_SCLASS unsigned int timer3)
+WriteTimer3	C:\MCC18\h\timers.h	373;"	p	line:373	signature:(PARAM_SCLASS unsigned int timer3)
+WriteTimer4::(timer4)TMR4=(timer4)	C:\MCC18\h\timers.h	430;"	d	line:430
+WriteTimer5	C:\MCC18\h\timers.h	488;"	p	line:488	signature:(PARAM_SCLASS unsigned int)
+WriteUSART	C:\MCC18\h\usart.h	254;"	p	line:254	signature:(PARAM_SCLASS char data)
+Write_b_eep	C:\MCC18\h\EEP.h	17;"	p	line:17	signature:(PARAM_SCLASS unsigned int badd,PARAM_SCLASS unsigned char bdata )
+_H_USART::((FILE*)((int)-2))	C:\MCC18\h\stdio.h	19;"	d	line:19
+_H_USER::((FILE*)((int)-1))	C:\MCC18\h\stdio.h	18;"	d	line:18
+__CTYPE_H	C:\MCC18\h\ctype.h	2;"	d	line:2
+__DELAYS_H	C:\MCC18\h\delays.h	2;"	d	line:2
+__EEP_H	C:\MCC18\h\EEP.h	2;"	d	line:2
+__STDIO_H	C:\MCC18\h\stdio.h	2;"	d	line:2
+__STDLIB_H	C:\MCC18\h\stdlib.h	3;"	d	line:3
+__STRING_H	C:\MCC18\h\string.h	2;"	d	line:2
+__TIMERS_H	C:\MCC18\h\timers.h	2;"	d	line:2
+__USART_H	C:\MCC18\h\usart.h	2;"	d	line:2
+addFxn	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.c	18;"	f	line:18	signature:(const rom char *name,int index,CMDFXN f)
+addrptr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	304;"	l	line:304
+addy	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	13;"	v	line:13
+annc	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.c	94;"	f	line:94	signature:(char *sparam, char * callname)
+annc	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	20;"	p	line:20	signature:(char *sparam, char * callname)
+asciiHexToBtye	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.c	37;"	f	line:37	signature:(char upperNibble, char lowerNibble)
+asciiHexToBtye	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.h	4;"	p	line:4	signature:(char upperNibble, char lowerNibble)
+asciiHexToNibble	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.c	3;"	f	line:3	signature:(char nibble)
+asciiHexToNibble	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.h	3;"	p	line:3	signature:(char nibble)
+asciiconvert_H	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.h	2;"	d	line:2
+atob	C:\MCC18\h\stdlib.h	142;"	p	line:142	signature:(static char *)
+atob	C:\MCC18\h\stdlib.h	29;"	p	line:29	signature:(const auto char *s)
+atof	C:\MCC18\h\stdlib.h	17;"	p	line:17	signature:(const auto char *s)
+atoi	C:\MCC18\h\stdlib.h	146;"	p	line:146	signature:(static char *)
+atoi	C:\MCC18\h\stdlib.h	40;"	p	line:40	signature:(const auto char *s)
+atol	C:\MCC18\h\stdlib.h	48;"	p	line:48	signature:(const auto char *s)
+atoub	C:\MCC18\h\stdlib.h	143;"	p	line:143	signature:(static char *)
+atoui	C:\MCC18\h\stdlib.h	147;"	p	line:147	signature:(static char *)
+atoul	C:\MCC18\h\stdlib.h	59;"	p	line:59	signature:(const auto char *s)
+baud1USART	C:\MCC18\h\usart.h	271;"	p	line:271	signature:(PARAM_SCLASS unsigned char baudconfig)
+baud1USART	C:\MCC18\h\usart.h	276;"	p	line:276	signature:(PARAM_SCLASS unsigned char baudconfig)
+baud2USART	C:\MCC18\h\usart.h	277;"	p	line:277	signature:(PARAM_SCLASS unsigned char baudconfig)
+baudUSART	C:\MCC18\h\usart.h	266;"	p	line:266	signature:(PARAM_SCLASS unsigned char baudconfig)
+bitN	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.c	96;"	l	line:96
+bt	C:\MCC18\h\timers.h	12;"	m	line:12	union:Timers
+btoa	C:\MCC18\h\stdlib.h	140;"	p	line:140	signature:(static char , static char *)
+btoa	C:\MCC18\h\stdlib.h	72;"	p	line:72	signature:(auto signed char value, auto char *s)
+buf	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	39;"	l	line:39
+buf	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	27;"	l	line:27
+buflen	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	303;"	l	line:303
+byteToAsciiHex	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.c	51;"	f	line:51	signature:(unsigned char value, char * hexStr)
+byteToAsciiHex	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.h	5;"	p	line:5	signature:(unsigned char value, char * hexStr)
+c	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\isNumeric.c	6;"	l	line:6
+c	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	76;"	l	line:76
+c	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.c	95;"	l	line:95
+closeAll	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	127;"	f	line:127	signature:(char *sparam, char *callname)
+closeAll	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	18;"	p	line:18	signature:(char *sparam, char *callname)
+cmd	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	463;"	l	line:463
+cmd	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	494;"	l	line:494
+cmdCount	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	329;"	l	line:329
+cmdFxn	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	495;"	l	line:495
+cmdRespBuf	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	13;"	v	line:13
+cmd_init	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	163;"	f	line:163	signature:(COMMAND *c)
+cmd_init	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	77;"	p	line:77	signature:(COMMAND *c)
+cmdname	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	10;"	m	line:10	struct:execcmd
+cmdptr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	43;"	m	line:43	struct:message
+cmds_h	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	2;"	d	line:2
+cmds_init	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	157;"	f	line:157	signature:(MESSAGE *m)
+cmds_init	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	76;"	p	line:76	signature:(MESSAGE *m)
+cmpltmsg	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	47;"	m	line:47	struct:message
+cmpltmsgbuf	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	31;"	v	line:31
+command	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	36;"	s	line:36
+commands	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	25;"	v	line:25
+commands	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	53;"	m	line:53	struct:message
+contxt1	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	326;"	l	line:326
+contxt2	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	327;"	l	line:327
+deliver	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	37;"	f	line:37	signature:(char *sparam, char *callname)
+deliver	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	44;"	p	line:44	signature:(char *sparam, char *callname)
+err	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	49;"	m	line:49	struct:message
+execcmd	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	9;"	s	line:9
+execmds	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.c	15;"	v	line:15
+fill	C:\MCC18\h\usart.h	179;"	m	line:179	struct:USART1::<anonymous>
+fill	C:\MCC18\h\usart.h	216;"	m	line:216	struct:USART2::<anonymous>
+fill	C:\MCC18\h\usart.h	247;"	m	line:247	struct:USART::<anonymous>
+findFxn	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.c	24;"	f	line:24	signature:(char *fxnname)
+findFxn	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	16;"	p	line:16	signature:(char *fxnname)
+fprintf	C:\MCC18\h\stdio.h	30;"	p	line:30	signature:(auto FILE *f, auto const MEM_MODEL rom char *fmt, ...)
+fputs	C:\MCC18\h\stdio.h	33;"	p	line:33	signature:(auto const MEM_MODEL rom char *s, auto FILE *f)
+fxn	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	11;"	m	line:11	struct:execcmd
+getPort	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.c	10;"	f	line:10	signature:(char portid)
+getPort	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.h	5;"	p	line:5	signature:(char portid)
+getTris	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.c	39;"	f	line:39	signature:(char portid)
+getTris	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.h	6;"	p	line:6	signature:(char portid)
+getc1USART::Read1USART	C:\MCC18\h\usart.h	197;"	d	line:197
+getc2USART::Read2USART	C:\MCC18\h\usart.h	227;"	d	line:227
+getcUSART::ReadUSART	C:\MCC18\h\usart.h	258;"	d	line:258
+gets1USART	C:\MCC18\h\usart.h	194;"	p	line:194	signature:(PARAM_SCLASS char *buffer, PARAM_SCLASS unsigned char len)
+gets2USART	C:\MCC18\h\usart.h	224;"	p	line:224	signature:(PARAM_SCLASS char *buffer, PARAM_SCLASS unsigned char len)
+getsUSART	C:\MCC18\h\usart.h	255;"	p	line:255	signature:(PARAM_SCLASS char *buffer, PARAM_SCLASS unsigned char len)
+i	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	26;"	l	line:26
+i	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.c	25;"	l	line:25
+i	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.c	43;"	l	line:43
+i	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	158;"	l	line:158
+i	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	384;"	l	line:384
+i	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	406;"	l	line:406
+i	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	462;"	l	line:462
+i	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	491;"	l	line:491
+i	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	89;"	l	line:89
+ibuf	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	46;"	m	line:46	struct:message
+icmds	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	52;"	m	line:52	struct:message
+initializeMojobus	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	414;"	f	line:414	signature:(void)
+initializeMojobus	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	94;"	p	line:94	signature:(void)
+initializeMojocmds	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.c	42;"	f	line:42	signature:(void)
+initializeMojocmds	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	15;"	p	line:15	signature:(void)
+initializeUsart	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	171;"	f	line:171	signature:(void)
+initializeUsart	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	78;"	p	line:78	signature:(void)
+isNumeric	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\isNumeric.c	3;"	f	line:3	signature:(const char *p)
+isNumeric	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\isNumeric.h	1;"	p	line:1	signature:(const char *p)
+isalnum	C:\MCC18\h\ctype.h	29;"	p	line:29	signature:(PARAM_SCLASS int c)
+isalnum	C:\MCC18\h\ctype.h	31;"	p	line:31	signature:(PARAM_SCLASS char)
+isalpha	C:\MCC18\h\ctype.h	40;"	p	line:40	signature:(PARAM_SCLASS int c)
+isalpha	C:\MCC18\h\ctype.h	42;"	p	line:42	signature:(PARAM_SCLASS char)
+isascii	C:\MCC18\h\ctype.h	52;"	p	line:52	signature:(PARAM_SCLASS char)
+iscntrl	C:\MCC18\h\ctype.h	61;"	p	line:61	signature:(PARAM_SCLASS int c)
+iscntrl	C:\MCC18\h\ctype.h	63;"	p	line:63	signature:(PARAM_SCLASS char)
+isdigit	C:\MCC18\h\ctype.h	72;"	p	line:72	signature:(PARAM_SCLASS int c)
+isdigit	C:\MCC18\h\ctype.h	74;"	p	line:74	signature:(PARAM_SCLASS char)
+isgraph	C:\MCC18\h\ctype.h	83;"	p	line:83	signature:(PARAM_SCLASS int c)
+islower	C:\MCC18\h\ctype.h	92;"	p	line:92	signature:(PARAM_SCLASS int c)
+islower	C:\MCC18\h\ctype.h	94;"	p	line:94	signature:(PARAM_SCLASS char)
+isprint	C:\MCC18\h\ctype.h	103;"	p	line:103	signature:(PARAM_SCLASS int c)
+ispunct	C:\MCC18\h\ctype.h	112;"	p	line:112	signature:(PARAM_SCLASS int c)
+isspace	C:\MCC18\h\ctype.h	122;"	p	line:122	signature:(PARAM_SCLASS int c)
+isupper	C:\MCC18\h\ctype.h	131;"	p	line:131	signature:(PARAM_SCLASS int c)
+isupper	C:\MCC18\h\ctype.h	133;"	p	line:133	signature:(PARAM_SCLASS char)
+isxdigit	C:\MCC18\h\ctype.h	143;"	p	line:143	signature:(PARAM_SCLASS int c)
+isxdigit	C:\MCC18\h\ctype.h	145;"	p	line:145	signature:(PARAM_SCLASS char)
+itoa	C:\MCC18\h\stdlib.h	144;"	p	line:144	signature:(static int,static char *)
+itoa	C:\MCC18\h\stdlib.h	84;"	p	line:84	signature:(auto int value, auto char *s)
+load	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	18;"	f	line:18	signature:(char * sparam, char * callname)
+load	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	42;"	p	line:42	signature:(char *sparam, char *callname)
+lowerNibble	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.c	53;"	l	line:53
+lowerVal	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.c	39;"	l	line:39
+lt	C:\MCC18\h\timers.h	11;"	m	line:11	union:Timers
+ltoa	C:\MCC18\h\stdlib.h	96;"	p	line:96	signature:(auto long value, auto char *s)
+main	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\main.c	27;"	f	line:27	signature:(void)
+memchr	C:\MCC18\h\string.h	184;"	p	line:184	signature:(auto const void *s, auto unsigned char c, auto size_t n)
+memchrpgm	C:\MCC18\h\string.h	623;"	p	line:623	signature:(auto const MEM_MODEL rom char *s, auto const unsigned char c, auto sizerom_t n)
+memcmp	C:\MCC18\h\string.h	129;"	p	line:129	signature:(auto const void *s1, auto const void *s2, auto size_t n)
+memcmppgm	C:\MCC18\h\string.h	542;"	p	line:542	signature:(auto MEM_MODEL rom void *s1, auto const MEM_MODEL rom void *s2, auto sizerom_t n)
+memcmppgm2ram	C:\MCC18\h\string.h	552;"	p	line:552	signature:(auto void *s1, auto const MEM_MODEL rom void *s2, auto sizeram_t n)
+memcmpram2pgm	C:\MCC18\h\string.h	561;"	p	line:561	signature:(auto MEM_MODEL rom void *s1, auto const void *s2, auto sizeram_t n)
+memcpy	C:\MCC18\h\string.h	40;"	p	line:40	signature:(auto void *s1, auto const void *s2, auto size_t n)
+memcpypgm	C:\MCC18\h\string.h	380;"	p	line:380	signature:(auto MEM_MODEL rom void *s1, auto const MEM_MODEL rom void *s2, auto sizerom_t n)
+memcpypgm2ram	C:\MCC18\h\string.h	390;"	p	line:390	signature:(auto void *s1, auto const MEM_MODEL rom void *s2, auto sizeram_t n)
+memcpyram2pgm	C:\MCC18\h\string.h	399;"	p	line:399	signature:(auto MEM_MODEL rom void *s1, auto const void *s2, auto sizeram_t n)
+memmove	C:\MCC18\h\string.h	56;"	p	line:56	signature:(auto void *s1, auto const void *s2, auto size_t n)
+memmovepgm	C:\MCC18\h\string.h	408;"	p	line:408	signature:(auto MEM_MODEL rom void *s1, auto const MEM_MODEL rom void *s2, auto sizerom_t n)
+memmovepgm2ram	C:\MCC18\h\string.h	418;"	p	line:418	signature:(auto void *s1, auto const MEM_MODEL rom void *s2, auto sizeram_t n)
+memmoveram2pgm	C:\MCC18\h\string.h	427;"	p	line:427	signature:(auto MEM_MODEL rom void *s1, auto const void *s2, auto sizeram_t n)
+memset	C:\MCC18\h\string.h	322;"	p	line:322	signature:(auto void *s, auto unsigned char c, auto size_t n)
+memsetpgm	C:\MCC18\h\string.h	772;"	p	line:772	signature:(auto MEM_MODEL rom void *s, auto unsigned char c, auto sizerom_t n)
+message	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	42;"	s	line:42
+mojocmd_H	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	3;"	d	line:3
+mojoerr_H	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojoerror.h	2;"	d	line:2
+mojomsg_H	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	2;"	d	line:2
+msg	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	17;"	v	line:17
+msg	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	493;"	l	line:493
+msgAddCommand	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	356;"	f	line:356	signature:(MESSAGE * m, char * scommand, char * sparam)
+msgAddCommand	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	90;"	p	line:90	signature:(MESSAGE * m, char * scommand, char * sparam)
+msgBuffer	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	35;"	v	line:35
+msgCheck	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	245;"	f	line:245	signature:(MESSAGE *m)
+msgCheck	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	74;"	p	line:74	signature:(MESSAGE *m)
+msgCpyFinal	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	152;"	f	line:152	signature:(MESSAGE *m)
+msgCpyFinal	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	75;"	p	line:75	signature:(MESSAGE *m)
+msgForMe	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	205;"	f	line:205	signature:(MESSAGE *m)
+msgForMe	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	82;"	p	line:82	signature:(MESSAGE *m)
+msgGetsResponse	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	383;"	f	line:383	signature:(MESSAGE *m)
+msgIncPtr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	125;"	f	line:125	signature:(MESSAGE *m)
+msgIncPtr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	68;"	p	line:68	signature:(MESSAGE *m)
+msgInit	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	88;"	f	line:88	signature:(MESSAGE *m)
+msgInit	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	65;"	p	line:65	signature:(MESSAGE *m)
+msgIs2nd	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	224;"	f	line:224	signature:(MESSAGE *m)
+msgIs2nd	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	85;"	p	line:85	signature:(MESSAGE *m)
+msgIsComplete	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	236;"	f	line:236	signature:(MESSAGE *m)
+msgIsComplete	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	87;"	p	line:87	signature:(MESSAGE *m)
+msgIsFirst	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	218;"	f	line:218	signature:(MESSAGE *m)
+msgIsFirst	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	84;"	p	line:84	signature:(MESSAGE *m)
+msgIsNew	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	230;"	f	line:230	signature:(MESSAGE *m)
+msgIsNew	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	86;"	p	line:86	signature:(MESSAGE *m)
+msgIsWaiting	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	212;"	f	line:212	signature:(MESSAGE *m)
+msgIsWaiting	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	83;"	p	line:83	signature:(MESSAGE *m)
+msgParseAddr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	302;"	f	line:302	signature:(MESSAGE *m)
+msgParseAddr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	89;"	p	line:89	signature:(MESSAGE *m)
+msgParseForCmds	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	323;"	f	line:323	signature:(MESSAGE *m)
+msgParseForCmds	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	88;"	p	line:88	signature:(MESSAGE *m)
+msgReadAddrEEPROM	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	83;"	f	line:83	signature:(void)
+msgReadAddrEEPROM	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	64;"	p	line:64	signature:(void)
+msgRecEnd	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	197;"	f	line:197	signature:(MESSAGE *m)
+msgRecEnd	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	81;"	p	line:81	signature:(MESSAGE *m)
+msgRecStart	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	185;"	f	line:185	signature:(MESSAGE *m)
+msgRecStart	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	80;"	p	line:80	signature:(MESSAGE *m)
+msgRemoveTrailingCR	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	121;"	f	line:121	signature:(MESSAGE *m)
+msgReset	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	108;"	f	line:108	signature:(MESSAGE *m)
+msgReset	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	66;"	p	line:66	signature:(MESSAGE *m)
+msgSetRespParam	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	405;"	f	line:405	signature:(MESSAGE *m)
+msgSetRespParam	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	91;"	p	line:91	signature:(MESSAGE *m)
+msgState2Complete	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	147;"	f	line:147	signature:(MESSAGE *m)
+msgState2Complete	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	73;"	p	line:73	signature:(MESSAGE *m)
+msgState2New	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	143;"	f	line:143	signature:(MESSAGE *m)
+msgState2New	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	72;"	p	line:72	signature:(MESSAGE *m)
+msgState2Rec2nd	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	139;"	f	line:139	signature:(MESSAGE *m)
+msgState2Rec2nd	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	71;"	p	line:71	signature:(MESSAGE *m)
+msgState2RecFirst	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	135;"	f	line:135	signature:(MESSAGE *m)
+msgState2RecFirst	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	70;"	p	line:70	signature:(MESSAGE *m)
+msgState2Waiting	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	131;"	f	line:131	signature:(MESSAGE *m)
+msgState2Waiting	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	69;"	p	line:69	signature:(MESSAGE *m)
+msgStoreRxByte	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	114;"	f	line:114	signature:(MESSAGE *m)
+msgStoreRxByte	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	67;"	p	line:67	signature:(MESSAGE *m)
+msg_state	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	48;"	m	line:48	struct:message
+msgstate	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	14;"	v	line:14
+newVal	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	141;"	l	line:141
+openAll	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	115;"	f	line:115	signature:(char *sparam, char *callname)
+openAll	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	17;"	p	line:17	signature:(char *sparam, char *callname)
+param	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	38;"	m	line:38	struct:command
+pcmd	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	28;"	v	line:28
+pmsg	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	21;"	v	line:21
+port	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	144;"	l	line:144
+port	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	28;"	l	line:28
+port	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.c	11;"	l	line:11
+portid	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	142;"	l	line:142
+portid	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	25;"	l	line:25
+portid	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	63;"	l	line:63
+ports_h	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.h	2;"	d	line:2
+printf	C:\MCC18\h\stdio.h	29;"	p	line:29	signature:(auto const MEM_MODEL rom char *fmt, ...)
+putc	C:\MCC18\h\stdio.h	25;"	p	line:25	signature:(auto char c, auto FILE *f)
+putc1USART::Write1USART	C:\MCC18\h\usart.h	198;"	d	line:198
+putc2USART::Write2USART	C:\MCC18\h\usart.h	228;"	d	line:228
+putcUSART::WriteUSART	C:\MCC18\h\usart.h	259;"	d	line:259
+putrs1USART	C:\MCC18\h\usart.h	196;"	p	line:196	signature:(PARAM_SCLASS const MEM_MODEL rom char *data)
+putrs2USART	C:\MCC18\h\usart.h	226;"	p	line:226	signature:(PARAM_SCLASS const MEM_MODEL rom char *data)
+putrsUSART	C:\MCC18\h\usart.h	257;"	p	line:257	signature:(PARAM_SCLASS const MEM_MODEL rom char *data)
+puts	C:\MCC18\h\stdio.h	32;"	p	line:32	signature:(auto const MEM_MODEL rom char *s)
+puts1USART	C:\MCC18\h\usart.h	195;"	p	line:195	signature:(PARAM_SCLASS char *data)
+puts2USART	C:\MCC18\h\usart.h	225;"	p	line:225	signature:(PARAM_SCLASS char *data)
+putsUSART	C:\MCC18\h\usart.h	256;"	p	line:256	signature:(PARAM_SCLASS char *data)
+rand	C:\MCC18\h\stdlib.h	125;"	p	line:125	signature:(void)
+rbuf	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	44;"	m	line:44	struct:message
+rdm	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	13;"	v	line:13
+reagent	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	38;"	l	line:38
+rec_addr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	50;"	m	line:50	struct:message
+resp	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	39;"	m	line:39	struct:command
+response	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	512;"	l	line:512
+ret	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\strtok_r.c	19;"	l	line:19
+retVal	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.c	40;"	l	line:40
+returnValue	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.c	5;"	l	line:5
+rx_handler	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\main.c	22;"	p	line:22	file:	signature:(void)
+rx_handler	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\main.c	61;"	f	line:61	signature:(void)
+rx_int	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\main.c	50;"	f	line:50	signature:(void)
+sbuf	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	45;"	m	line:45	struct:message
+scmdptr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	325;"	l	line:325
+selectReagent	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	29;"	m	line:29	struct:RDMmodule
+sendBuffer	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	40;"	v	line:40
+sendPtr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	41;"	v	line:41
+send_addr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	51;"	m	line:51	struct:message
+setBitFromSParam	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.c	94;"	f	line:94	signature:(unsigned char val, char* sparam)
+setBitFromSParam	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.h	7;"	p	line:7	signature:(unsigned char val, char* sparam)
+setBitHigh	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.c	70;"	f	line:70	signature:(int val, char bitid)
+setBitHigh	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.h	8;"	p	line:8	signature:(int val, char bitid)
+setBitLow	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.c	77;"	f	line:77	signature:(int val, char bitid)
+setBitLow	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.h	9;"	p	line:9	signature:(int val, char bitid)
+setBitToggle	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.c	83;"	f	line:83	signature:(int val, char bitid)
+setBitToggle	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.h	10;"	p	line:10	signature:(int val, char bitid)
+setErrResp	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	37;"	p	line:37	signature:(ram char * buf, const rom char * serr)
+setErrResp	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	16;"	f	line:16	signature:(ram char * buf, const rom char * serr)
+setErrResp	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	7;"	p	line:7	signature:(ram char * buf, const rom char * serr)
+setR	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	139;"	f	line:139	signature:(char * sparam, char * callname)
+setR	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	16;"	p	line:16	signature:(char *sparam, char * callname)
+setid	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.c	106;"	f	line:106	signature:(char *sparam, char * callname)
+setid	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	18;"	p	line:18	signature:(char *sparam, char * callname)
+setport	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	23;"	f	line:23	signature:(char *sparam, char * callname)
+setport	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	10;"	p	line:10	signature:(char *sparam, char * callname)
+settris	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	61;"	f	line:61	signature:(char *sparam, char * callname)
+settris	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	11;"	p	line:11	signature:(char *sparam, char * callname)
+setup	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\main.c	21;"	p	line:21	file:	signature:(void)
+setup	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\main.c	91;"	f	line:91	signature:(void)
+sparamptr	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	324;"	l	line:324
+sprintf	C:\MCC18\h\stdio.h	28;"	p	line:28	signature:(auto char *buf, auto const MEM_MODEL rom char *fmt, ...)
+srand	C:\MCC18\h\stdlib.h	137;"	p	line:137	signature:(auto unsigned int seed)
+standby	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.c	28;"	f	line:28	signature:(char *sparam, char *callname)
+standby	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	43;"	p	line:43	signature:(char *sparam, char *callname)
+state	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\RDMcmds.h	28;"	m	line:28	struct:RDMmodule
+state1	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	14;"	p	line:14	signature:(char * sparam, char * callname)
+strcat	C:\MCC18\h\string.h	806;"	p	line:806	signature:(static char *, static char *)
+strcat	C:\MCC18\h\string.h	98;"	p	line:98	signature:(auto char *s1, auto const char *s2)
+strcatpgm	C:\MCC18\h\string.h	488;"	p	line:488	signature:(auto MEM_MODEL rom char *s1, auto const MEM_MODEL rom char *s2)
+strcatpgm2ram	C:\MCC18\h\string.h	497;"	p	line:497	signature:(auto char *s1, auto const MEM_MODEL rom char *s2)
+strcatram2pgm	C:\MCC18\h\string.h	505;"	p	line:505	signature:(auto MEM_MODEL rom char *s1, auto const char *s2)
+strchr	C:\MCC18\h\string.h	200;"	p	line:200	signature:(auto const char *s, auto unsigned char c)
+strchrpgm	C:\MCC18\h\string.h	632;"	p	line:632	signature:(auto const MEM_MODEL rom char *s, auto unsigned char c)
+strcmp	C:\MCC18\h\string.h	142;"	p	line:142	signature:(auto const char *s1, auto const char *s2)
+strcmp	C:\MCC18\h\string.h	807;"	p	line:807	signature:(static char *, static char *)
+strcmppgm	C:\MCC18\h\string.h	569;"	p	line:569	signature:(auto const MEM_MODEL rom char *s1, auto const MEM_MODEL rom char *s2)
+strcmppgm2ram	C:\MCC18\h\string.h	578;"	p	line:578	signature:(auto const char *s1, auto const MEM_MODEL rom char *s2)
+strcmpram2pgm	C:\MCC18\h\string.h	586;"	p	line:586	signature:(auto const MEM_MODEL rom char *s1, auto const char *s2)
+strcpy	C:\MCC18\h\string.h	68;"	p	line:68	signature:(auto char *s1, auto const char *s2)
+strcpy	C:\MCC18\h\string.h	808;"	p	line:808	signature:(static char *, static char *)
+strcpypgm	C:\MCC18\h\string.h	435;"	p	line:435	signature:(auto MEM_MODEL rom char *s1, auto const MEM_MODEL rom char *s2)
+strcpypgm2ram	C:\MCC18\h\string.h	444;"	p	line:444	signature:(auto char *s1, auto const MEM_MODEL rom char *s2)
+strcpyram2pgm	C:\MCC18\h\string.h	452;"	p	line:452	signature:(auto MEM_MODEL rom char *s1, auto const char *s2)
+strcspn	C:\MCC18\h\string.h	211;"	p	line:211	signature:(auto const char *s1, auto const char *s2)
+strcspnpgm	C:\MCC18\h\string.h	640;"	p	line:640	signature:(auto const MEM_MODEL rom char *s1, auto const MEM_MODEL rom char *s2)
+strcspnpgmram	C:\MCC18\h\string.h	648;"	p	line:648	signature:(auto const MEM_MODEL rom char *s1, auto const char *s2)
+strcspnrampgm	C:\MCC18\h\string.h	656;"	p	line:656	signature:(auto const char *s1, auto const MEM_MODEL rom char *s2)
+strerror::(n)((n),"")	C:\MCC18\h\string.h	340;"	d	line:340
+strlen	C:\MCC18\h\string.h	350;"	p	line:350	signature:(auto const char *s)
+strlen	C:\MCC18\h\string.h	809;"	p	line:809	signature:(static char *)
+strlenpgm	C:\MCC18\h\string.h	793;"	p	line:793	signature:(auto const MEM_MODEL rom char *s)
+strlwr	C:\MCC18\h\string.h	368;"	p	line:368	signature:(auto char *s)
+strlwr	C:\MCC18\h\string.h	810;"	p	line:810	signature:(static char *)
+strlwrpgm	C:\MCC18\h\string.h	786;"	p	line:786	signature:(auto MEM_MODEL rom char *s)
+strncat	C:\MCC18\h\string.h	114;"	p	line:114	signature:(auto char *s1, auto const char *s2, auto size_t n)
+strncatpgm	C:\MCC18\h\string.h	514;"	p	line:514	signature:(auto MEM_MODEL rom char *s1, auto const MEM_MODEL rom char *s2, auto sizerom_t n)
+strncatpgm2ram	C:\MCC18\h\string.h	524;"	p	line:524	signature:(auto char *s1, auto const MEM_MODEL rom char *s2, auto sizeram_t n)
+strncatram2pgm	C:\MCC18\h\string.h	533;"	p	line:533	signature:(auto MEM_MODEL rom char *s1, auto const char *s2, auto sizeram_t n)
+strncmp	C:\MCC18\h\string.h	162;"	p	line:162	signature:(auto const char *s1, auto const char *s2, auto size_t n)
+strncmppgm	C:\MCC18\h\string.h	595;"	p	line:595	signature:(auto const MEM_MODEL rom char *s1, auto const MEM_MODEL rom char *s2, auto sizerom_t n)
+strncmppgm2ram	C:\MCC18\h\string.h	605;"	p	line:605	signature:(auto char *s1, auto const MEM_MODEL rom char *s2, auto sizeram_t n)
+strncmpram2pgm	C:\MCC18\h\string.h	614;"	p	line:614	signature:(auto MEM_MODEL rom char *s1, auto const char *s2, auto sizeram_t n)
+strncpy	C:\MCC18\h\string.h	84;"	p	line:84	signature:(auto char *s1, auto const char *s2, auto size_t n)
+strncpypgm	C:\MCC18\h\string.h	461;"	p	line:461	signature:(auto MEM_MODEL rom char *s1, auto const MEM_MODEL rom char *s2, auto sizerom_t n)
+strncpypgm2ram	C:\MCC18\h\string.h	471;"	p	line:471	signature:(auto char *s1, auto const MEM_MODEL rom char *s2, auto sizeram_t n)
+strncpyram2pgm	C:\MCC18\h\string.h	480;"	p	line:480	signature:(auto MEM_MODEL rom char *s1, auto const char *s2, auto sizeram_t n)
+strpbrk	C:\MCC18\h\string.h	223;"	p	line:223	signature:(auto const char *s1, auto const char *s2)
+strpbrkpgm	C:\MCC18\h\string.h	664;"	p	line:664	signature:(auto const MEM_MODEL rom char *s1, auto const MEM_MODEL rom char *s2)
+strpbrkpgmram	C:\MCC18\h\string.h	672;"	p	line:672	signature:(auto const MEM_MODEL rom char *s1, auto const char *s2)
+strpbrkrampgm	C:\MCC18\h\string.h	680;"	p	line:680	signature:(auto const char *s1, auto const MEM_MODEL rom char *s2)
+strrchr	C:\MCC18\h\string.h	239;"	p	line:239	signature:(auto const char *s, auto unsigned char c)
+strset	C:\MCC18\h\string.h	812;"	p	line:812	signature:(static char *, static char)
+strspn	C:\MCC18\h\string.h	250;"	p	line:250	signature:(auto const char *s1, auto const char *s2)
+strspnpgm	C:\MCC18\h\string.h	697;"	p	line:697	signature:(auto const MEM_MODEL rom char *s1, auto const MEM_MODEL rom char *s2)
+strspnpgmram	C:\MCC18\h\string.h	705;"	p	line:705	signature:(auto const MEM_MODEL rom char *s1, auto const char *s2)
+strspnrampgm	C:\MCC18\h\string.h	713;"	p	line:713	signature:(auto const char *s1, auto const MEM_MODEL rom char *s2)
+strstr	C:\MCC18\h\string.h	263;"	p	line:263	signature:(auto const char *s1, auto const char *s2)
+strstrpgm	C:\MCC18\h\string.h	721;"	p	line:721	signature:(auto const MEM_MODEL rom char *s1, auto const MEM_MODEL rom char *s2)
+strstrpgmram	C:\MCC18\h\string.h	730;"	p	line:730	signature:(auto const MEM_MODEL rom char *s1, auto const char *s2)
+strstrrampgm	C:\MCC18\h\string.h	738;"	p	line:738	signature:(auto const char *s1, auto const MEM_MODEL rom char *s2)
+strtok	C:\MCC18\h\string.h	306;"	p	line:306	signature:(auto char *s1, auto const char *s2)
+strtok_r	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\strtok_r.c	17;"	f	line:17	signature:(char *s1, const rom char *s2, char **lasts)
+strtok_r	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\strtok_r.h	6;"	p	line:6	signature:(char *s1, const rom char *s3, char **PreStr)
+strtokpgm	C:\MCC18\h\string.h	746;"	p	line:746	signature:(auto MEM_MODEL rom char *s1, auto const MEM_MODEL rom char *s2)
+strtokpgmram	C:\MCC18\h\string.h	755;"	p	line:755	signature:(auto char *s1, auto const MEM_MODEL rom char *s2)
+strtokrampgm	C:\MCC18\h\string.h	763;"	p	line:763	signature:(auto MEM_MODEL rom char *s1, auto const char *s2)
+strupr	C:\MCC18\h\string.h	359;"	p	line:359	signature:(auto char *s)
+strupr	C:\MCC18\h\string.h	811;"	p	line:811	signature:(static char *)
+struprpgm	C:\MCC18\h\string.h	779;"	p	line:779	signature:(auto MEM_MODEL rom char *s)
+t	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.c	95;"	l	line:95
+temp	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	492;"	l	line:492
+test	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	15;"	p	line:15	signature:(char * sparam, char * callname)
+test1	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.h	8;"	p	line:8	signature:(char * port, char val)
+text	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	37;"	m	line:37	struct:command
+toascii	C:\MCC18\h\ctype.h	160;"	p	line:160	signature:(PARAM_SCLASS char)
+tolower	C:\MCC18\h\ctype.h	171;"	p	line:171	signature:(PARAM_SCLASS int c)
+tolower	C:\MCC18\h\ctype.h	173;"	p	line:173	signature:(PARAM_SCLASS char)
+toupper	C:\MCC18\h\ctype.h	184;"	p	line:184	signature:(PARAM_SCLASS int c)
+toupper	C:\MCC18\h\ctype.h	186;"	p	line:186	signature:(PARAM_SCLASS char)
+tris	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	64;"	l	line:64
+tris	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\ports.c	40;"	l	line:40
+ubtoa	C:\MCC18\h\stdlib.h	141;"	p	line:141	signature:(static unsigned char ,static char *)
+uitoa	C:\MCC18\h\stdlib.h	145;"	p	line:145	signature:(static unsigned int,static char *)
+ultoa	C:\MCC18\h\stdlib.h	108;"	p	line:108	signature:(auto unsigned long value, auto char *s)
+upperNibble	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.c	52;"	l	line:52
+upperVal	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\asciiConvert.c	38;"	l	line:38
+val	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	140;"	l	line:140
+val	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	24;"	l	line:24
+val	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\cmds.c	62;"	l	line:62
+val	C:\MCC18\h\usart.h	172;"	m	line:172	union:USART1
+val	C:\MCC18\h\usart.h	209;"	m	line:209	union:USART2
+val	C:\MCC18\h\usart.h	240;"	m	line:240	union:USART
+vfprintf	C:\MCC18\h\stdio.h	31;"	p	line:31	signature:(auto FILE *f, auto const MEM_MODEL rom char *fmt, auto va_list ap)
+vprintf	C:\MCC18\h\stdio.h	27;"	p	line:27	signature:(auto const MEM_MODEL rom char *fmt, auto va_list ap)
+vsprintf	C:\MCC18\h\stdio.h	26;"	p	line:26	signature:(auto char *buf, auto const MEM_MODEL rom char *fmt, auto va_list ap)
+who	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.c	87;"	f	line:87	signature:(char *sparam, char * callname)
+who	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojocmd.h	19;"	p	line:19	signature:(char *sparam, char * callname)
+writeFromRam	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	556;"	f	line:556	signature:(char * str)
+writeFromRam	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	100;"	p	line:100	signature:(ram char * str)
+writeFromRom	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.c	544;"	f	line:544	signature:(const far rom char * str)
+writeFromRom	C:\Documents and Settings\hherman\My Documents\PIC\RDM-mojo-rs485\mojomsg.h	99;"	p	line:99	signature:(const far rom char * str)

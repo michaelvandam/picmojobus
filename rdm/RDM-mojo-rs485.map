@@ -1,0 +1,1539 @@
+MPLINK 4.31, Linker
+Linker Map File - Created Wed Sep 30 13:44:34 2009
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000000    program   0x000006
+       .code__user_putc.o       code   0x000006    program   0x000002
+             rx_interrupt       code   0x000008    program   0x000006
+                   .cinit    romdata   0x00000e    program   0x000026
+          .code_mojomsg.o       code   0x000034    program   0x001900
+         .code_vfprintf.o       code   0x001934    program   0x000c22
+          .code_mojocmd.o       code   0x002556    program   0x0008ec
+             .code_cmds.o       code   0x002e42    program   0x00074a
+            .code_ports.o       code   0x00358c    program   0x0003ca
+          .code_RDMcmds.o       code   0x003956    program   0x000376
+     .code_asciiConvert.o       code   0x003ccc    program   0x0002a2
+                   STRING       code   0x003f6e    program   0x000296
+                   STDLIB       code   0x004204    program   0x00021e
+         .code_strtok_r.o       code   0x004422    program   0x00016c
+             .stringtable    romdata   0x00458e    program   0x00014b
+      .idata_busy_eep.o_i    romdata   0x0046d9    program   0x000000
+       .romdata_RDMcmds.o    romdata   0x0046d9    program   0x000000
+       .idata_RDMcmds.o_i    romdata   0x0046d9    program   0x000001
+      .idata_vfprintf.o_i    romdata   0x0046d9    program   0x000000
+        .romdata_u1read.o    romdata   0x0046d9    program   0x000000
+      .romdata_busy_eep.o    romdata   0x0046d9    program   0x000000
+         .romdata_ports.o    romdata   0x0046d9    program   0x000000
+    .romdata__user_putc.o    romdata   0x0046d9    program   0x000000
+        .romdata_read_B.o    romdata   0x0046d9    program   0x000000
+        .idata_u1read.o_i    romdata   0x0046d9    program   0x000000
+        .romdata_stokpr.o    romdata   0x0046d9    program   0x000000
+        .idata_u1defs.o_i    romdata   0x0046d9    program   0x000000
+        .romdata_u1defs.o    romdata   0x0046d9    program   0x000000
+    .idata__user_putc.o_i    romdata   0x0046d9    program   0x000000
+          .idata_cmds.o_i    romdata   0x0046d9    program   0x000000
+          .romdata_cmds.o    romdata   0x0046d9    program   0x000000
+       .romdata_write_B.o    romdata   0x0046d9    program   0x000000
+          .idata_main.o_i    romdata   0x0046d9    program   0x000000
+          .romdata_main.o    romdata   0x0046d9    program   0x000000
+          .idata_putc.o_i    romdata   0x0046d9    program   0x000000
+       .romdata_fxm3232.o    romdata   0x0046d9    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x0046d9    program   0x000000
+     .idata_mojoerror.o_i    romdata   0x0046d9    program   0x000000
+     .romdata_mojoerror.o    romdata   0x0046d9    program   0x000000
+       .idata_sprintf.o_i    romdata   0x0046d9    program   0x000000
+           .code_stokpr.o       code   0x0046da    program   0x00012c
+             .code_main.o       code   0x004806    program   0x0000ee
+          .code_sprintf.o       code   0x0048f4    program   0x0000ac
+               _cinit_scn       code   0x0049a0    program   0x00009e
+           .code_u1open.o       code   0x004a3e    program   0x000084
+             .code_putc.o       code   0x004ac2    program   0x000084
+        .code_isNumeric.o       code   0x004b46    program   0x00007c
+          .code_fxm3232.o       code   0x004bc2    program   0x000070
+          .code_write_B.o       code   0x004c32    program   0x00005c
+                     PROG       code   0x004c8e    program   0x00005a
+                    CTYPE       code   0x004ce8    program   0x000048
+           .code_read_B.o       code   0x004d30    program   0x000048
+         .code_fxd3232u.o       code   0x004d78    program   0x000048
+           .code_u1read.o       code   0x004dc0    program   0x00003e
+             D10KTCYXCODE       code   0x004dfe    program   0x00002e
+          .code_u1write.o       code   0x004e2c    program   0x00002e
+             _startup_scn       code   0x004e5a    program   0x00001c
+                    STDIO       code   0x004e76    program   0x00001c
+      .romdata_vfprintf.o    romdata   0x004e92    program   0x000011
+       .romdata_sprintf.o    romdata   0x004ea3    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x004ea3    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x004ea3    program   0x000000
+        .romdata___init.o    romdata   0x004ea3    program   0x000000
+          .romdata_putc.o    romdata   0x004ea3    program   0x000000
+         .idata_c018i.o_i    romdata   0x004ea3    program   0x000000
+         .romdata_c018i.o    romdata   0x004ea3    program   0x000000
+  .idata_asciiConvert.o_i    romdata   0x004ea3    program   0x000000
+  .romdata_asciiConvert.o    romdata   0x004ea3    program   0x000000
+     .idata_isNumeric.o_i    romdata   0x004ea3    program   0x000000
+     .romdata_isNumeric.o    romdata   0x004ea3    program   0x000000
+       .idata_mojocmd.o_i    romdata   0x004ea3    program   0x000000
+       .romdata_mojocmd.o    romdata   0x004ea3    program   0x000000
+       .romdata_mojomsg.o    romdata   0x004ea3    program   0x000000
+         .idata_ports.o_i    romdata   0x004ea3    program   0x000000
+      .idata_strtok_r.o_i    romdata   0x004ea3    program   0x000000
+      .romdata_strtok_r.o    romdata   0x004ea3    program   0x000000
+        .idata___init.o_i    romdata   0x004ea3    program   0x000000
+       .idata_write_B.o_i    romdata   0x004ea3    program   0x000000
+        .idata_u1open.o_i    romdata   0x004ea3    program   0x000000
+        .romdata_u1open.o    romdata   0x004ea3    program   0x000000
+        .idata_read_B.o_i    romdata   0x004ea3    program   0x000000
+       .romdata_u1write.o    romdata   0x004ea3    program   0x000000
+       .idata_u1write.o_i    romdata   0x004ea3    program   0x000000
+                    .code       code   0x004ea4    program   0x00000e
+            .code_c018i.o       code   0x004ea4    program   0x000000
+        .code_mojoerror.o       code   0x004ea4    program   0x000000
+           .code_u1defs.o       code   0x004ea4    program   0x000000
+         .code_busy_eep.o       code   0x004eb2    program   0x000006
+           .code___init.o       code   0x004eb8    program   0x000002
+        .idata_stokpr.o_i    romdata   0x004eba    program   0x000002
+       .idata_mojomsg.o_i    romdata   0x004ebc    program   0x000007
+    .config_300001_main.o    romdata   0x300001    program   0x000001
+    .config_300003_main.o    romdata   0x300003    program   0x000001
+    .config_300006_main.o    romdata   0x300006    program   0x000001
+                MATH_DATA      udata   0x000000       data   0x000014
+                 .tmpdata      udata   0x000014       data   0x00000a
+                DELAYDAT2      udata   0x00001e       data   0x000001
+                DELAYDAT1      udata   0x00001f       data   0x000001
+                 sendbufs      udata   0x000100       data   0x000100
+                 commands      udata   0x000200       data   0x000190
+           .udata_c018i.o      udata   0x0003f5       data   0x00000a
+          .udata_u1defs.o      udata   0x0003ff       data   0x000001
+                 execcmds      udata   0x000400       data   0x000122
+         .idata_mojomsg.o      idata   0x0005f1       data   0x000007
+         .udata_RDMcmds.o      udata   0x0005f8       data   0x000002
+          .idata_stokpr.o      idata   0x0005fa       data   0x000002
+         .udata_mojomsg.o      udata   0x0005fc       data   0x000001
+         .idata_RDMcmds.o      idata   0x0005fd       data   0x000001
+          .idata_u1defs.o      idata   0x0005fe       data   0x000000
+          .idata_read_B.o      idata   0x0005fe       data   0x000000
+         .udata_u1write.o      udata   0x0005fe       data   0x000000
+         .idata_u1write.o      idata   0x0005fe       data   0x000000
+          .udata_read_B.o      udata   0x0005fe       data   0x000000
+         .udata_write_B.o      udata   0x0005fe       data   0x000000
+          .idata_u1read.o      idata   0x0005fe       data   0x000000
+          .udata_u1read.o      udata   0x0005fe       data   0x000000
+         .idata_write_B.o      idata   0x0005fe       data   0x000000
+          .udata___init.o      udata   0x0005fe       data   0x000000
+          .idata___init.o      idata   0x0005fe       data   0x000000
+         .udata_sprintf.o      udata   0x0005fe       data   0x000000
+         .idata_sprintf.o      idata   0x0005fe       data   0x000000
+          .udata_stokpr.o      udata   0x0005fe       data   0x000000
+        .udata_vfprintf.o      udata   0x0005fe       data   0x000000
+        .idata_vfprintf.o      idata   0x0005fe       data   0x000000
+        .udata_fxd3232u.o      udata   0x0005fe       data   0x000000
+        .idata_fxd3232u.o      idata   0x0005fe       data   0x000000
+         .udata_fxm3232.o      udata   0x0005fe       data   0x000000
+         .idata_fxm3232.o      idata   0x0005fe       data   0x000000
+            .udata_putc.o      udata   0x0005fe       data   0x000000
+            .idata_putc.o      idata   0x0005fe       data   0x000000
+      .udata__user_putc.o      udata   0x0005fe       data   0x000000
+      .idata__user_putc.o      idata   0x0005fe       data   0x000000
+           .idata_c018i.o      idata   0x0005fe       data   0x000000
+    .udata_asciiConvert.o      udata   0x0005fe       data   0x000000
+    .idata_asciiConvert.o      idata   0x0005fe       data   0x000000
+            .idata_cmds.o      idata   0x0005fe       data   0x000000
+       .udata_isNumeric.o      udata   0x0005fe       data   0x000000
+       .idata_isNumeric.o      idata   0x0005fe       data   0x000000
+            .udata_main.o      udata   0x0005fe       data   0x000000
+            .idata_main.o      idata   0x0005fe       data   0x000000
+         .udata_mojocmd.o      udata   0x0005fe       data   0x000000
+         .idata_mojocmd.o      idata   0x0005fe       data   0x000000
+       .udata_mojoerror.o      udata   0x0005fe       data   0x000000
+       .idata_mojoerror.o      idata   0x0005fe       data   0x000000
+              message_ptr      udata   0x0005fe       data   0x000000
+           .udata_ports.o      udata   0x0005fe       data   0x000000
+           .idata_ports.o      idata   0x0005fe       data   0x000000
+        .udata_strtok_r.o      udata   0x0005fe       data   0x000000
+        .idata_strtok_r.o      idata   0x0005fe       data   0x000000
+        .udata_busy_eep.o      udata   0x0005fe       data   0x000000
+        .idata_busy_eep.o      idata   0x0005fe       data   0x000000
+          .udata_u1open.o      udata   0x0005fe       data   0x000000
+          .idata_u1open.o      idata   0x0005fe       data   0x000000
+                  msgbufs      udata   0x000600       data   0x000100
+                  cmptbuf      udata   0x000700       data   0x000100
+                   .stack      udata   0x000e00       data   0x000100
+              message_sec      udata   0x000f00       data   0x000013
+            .udata_cmds.o      udata   0x000f13       data   0x000010
+            SFR_UNBANKED0      udata   0x000f62       data   0x00009e
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x004ea2      
+                            0x004ea4    0x004ec2      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+                            0x300006    0x300006      
+            20165 out of 132120 program addresses used, program memory utilization is 15%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Blink   0x0032a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                 Busy_eep   0x004eb2    program     extern C:\MCC18\src\pmc_common\EEP\busy_eep.c
+                   D10K_1   0x004e0a    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x004e16    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x004e08    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+             Delay10KTCYx   0x004dfe    program     extern C:\MCC18\src\traditional\delays\d10ktcyx.asm
+             ExecCommands   0x0015b8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 FXD3232U   0x004d78    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x004c8e    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
+                  FXM3232   0x004bc2    program     extern C:\MCC18\src\traditional\math\fxm3232.c
+                   GetMsg   0x0013fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                    Hello   0x003254    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+             MessageReady   0x0013ba    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             MojoReadByte   0x0000f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+            MojoWriteByte   0x000034    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          MojoWriteRamStr   0x0000a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          MojoWriteRomStr   0x000054    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                    MsgRx   0x0013da    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 NotFound   0x002b1e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                  OneByte   0x004410    program     static C:\MCC18\src\traditional\stdclib\itobcd.asm
+               Open1USART   0x004a3e    program     extern C:\MCC18\src\pmc_common\USART\u1open.c
+            PrintCommands   0x001448    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          PrintCurrentMsg   0x001862    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                ProcLower   0x0043c4    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                ProcUpper   0x0043ba    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+              RDM2Deliver   0x003c64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                 RDM2Load   0x003c3e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               RDM2Manual   0x003c46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+              RDM2Standby   0x003c36    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               RDMDeliver   0x003c6c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                   RDMRun   0x003c9c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+            RDMSetReagent   0x003c4e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                 RDMSetup   0x003c2e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               Read1USART   0x004dc0    program     extern C:\MCC18\src\pmc_common\USART\u1read.c
+               Read_b_eep   0x004d30    program     extern C:\MCC18\src\pmc_common\EEP\read_B.c
+          ReadyForNextMsg   0x0017f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                  Respond   0x0017ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               TSIGN1616A   0x004cda    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
+                 TstLower   0x0043ae    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                 TstUpper   0x0043a8    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+              Write1USART   0x004e2c    program     extern C:\MCC18\src\pmc_common\USART\u1write.c
+              Write_b_eep   0x004c32    program     extern C:\MCC18\src\pmc_common\EEP\write_B.c
+                   _2jEnd   0x0041ee    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+       _D10KTCYXCODE_0010   0x004e0e    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x004e1a    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+       ___return_lbl00000   0x004c30    program     static                          
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00000   0x004dbe    program     static                          
+       ___return_lbl00001   0x004e74    program     static                          
+       ___return_lbl00002   0x004a3c    program     static                          
+       ___return_lbl00004   0x00000c    program     static                          
+               __config_0   0x300001    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+               __config_1   0x300003    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+               __config_2   0x300006    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+                   __init   0x004eb8    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+                   __pa_0   0x002274    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_0   0x0047d6    program     static C:\MCC18\src\traditional\stdclib\stokpr.c
+                   __pa_1   0x0047e4    program     static C:\MCC18\src\traditional\stdclib\stokpr.c
+                   __pa_1   0x00227c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_10   0x002330    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_11   0x00233e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x002354    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_13   0x00236e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_14   0x002386    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_15   0x002396    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_16   0x0023ac    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_17   0x0023be    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_18   0x0023d0    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_19   0x0023da    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_2   0x0047f8    program     static C:\MCC18\src\traditional\stdclib\stokpr.c
+                   __pa_2   0x002286    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_20   0x0023ea    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_21   0x0023fa    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_22   0x00240a    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_23   0x002416    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_24   0x002424    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_25   0x00242c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_26   0x002436    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_27   0x002440    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_28   0x002448    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x002456    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x002290    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_30   0x002472    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_31   0x00248c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_32   0x0024a6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_33   0x0024be    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_34   0x0024c8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_35   0x0024d6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_36   0x0024de    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_37   0x0024e8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_38   0x0024f8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_39   0x002506    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x0022a8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_40   0x002512    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_41   0x00251e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_42   0x002526    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_43   0x002530    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_44   0x002536    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_45   0x002540    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_46   0x00254c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_5   0x0022bc    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_6   0x0022d8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_7   0x0022e2    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_8   0x0022ee    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_9   0x002310    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+               __string_0   0x0046cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               __string_0   0x0045a8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+               __string_0   0x0046bf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_0   0x00459e    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+               __string_0   0x004667    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_1   0x004664    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_1   0x0046cc    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               __string_1   0x004597    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+               __string_1   0x0046bd    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              __string_10   0x004631    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_10   0x00467c    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              __string_11   0x004675    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              __string_11   0x00462b    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_12   0x004673    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              __string_12   0x004625    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_13   0x00461f    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_13   0x00466a    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              __string_14   0x004619    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_15   0x004613    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_16   0x00460d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_17   0x004607    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_18   0x004601    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_19   0x0045fa    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_2   0x004660    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_2   0x0046c0    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               __string_2   0x00458e    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+               __string_2   0x0046bb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              __string_20   0x0045f7    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_21   0x0045f4    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_22   0x0045f1    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_23   0x0045ee    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_24   0x0045eb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_25   0x0045e8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_26   0x0045e3    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_27   0x0045dd    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_28   0x0045d7    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_29   0x0045cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_3   0x0046b9    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_3   0x00465b    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_30   0x0045cb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_31   0x0045c8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_32   0x0045c4    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_33   0x0045ba    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_4   0x004655    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_4   0x0046b0    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_5   0x00464f    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_5   0x0046ae    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_6   0x0046ac    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_6   0x004649    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_7   0x0046a5    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_7   0x004643    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_8   0x00469d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_8   0x00463d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_9   0x004637    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_9   0x00469a    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              __tmplbl_42   0x00240a    program     static                          
+              __tmplbl_43   0x002252    program     static                          
+              __tmplbl_44   0x002238    program     static                          
+              __tmplbl_85   0x00198a    program     static                          
+            __zero_memory   0x004ea4    program     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                _do_cinit   0x0049a0    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                   _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                   _false   0x004dba    program     static                          
+                 _startup   0x004e5a    program     extern C:\MCC18\src\traditional\startup\c018i.c
+              _usart_putc   0x004e76    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
+               _user_putc   0x000006    program     extern C:\MCC18\src\traditional\stdclib\_user_putc.c
+                   addFxn   0x002556    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                     annc   0x002c0a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+           asciiHexToBtye   0x003dac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
+         asciiHexToNibble   0x003ccc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
+                     atoi   0x004204    program     extern C:\MCC18\src\traditional\stdclib\atoi.asm
+           byteToAsciiHex   0x003e5a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
+               clear_loop   0x004eaa    program     static C:\MCC18\src\traditional\proc\p18F8722.asm
+                 closeAll   0x0033ac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                 cmd_init   0x000572    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                cmds_init   0x0004e4    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                copy_loop   0x004a12    program     static                          
+            copy_one_byte   0x004a18    program     static                          
+                  deliver   0x003a9a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                     done   0x004a3c    program     static                          
+             done_copying   0x004a26    program     static                          
+                  findFxn   0x0025fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                  getPort   0x00358c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+                  getTris   0x00361c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+        initializeMojobus   0x0013a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+       initializeMojocmds   0x002704    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+          initializeUsart   0x0005bc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                isNumeric   0x004b46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\isNumeric.c
+                  isdigit   0x004ce8    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
+                  isprint   0x004d0c    program     extern C:\MCC18\src\traditional\stdclib\isprint.asm
+                   itoBCD   0x0043ce    program     extern C:\MCC18\src\traditional\stdclib\itobcd.asm
+                     itoa   0x0042ee    program     extern C:\MCC18\src\traditional\stdclib\itoa.asm
+                     jDo1   0x004374    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                     jDo2   0x004370    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                     jDo3   0x00436c    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                     jDo4   0x004368    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                     jDo5   0x004364    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                     jEnd   0x0041f0    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x004178    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+                     jEnd   0x00413a    program     static C:\MCC18\src\traditional\stdclib\strchr.asm
+                     jEnd   0x004112    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                     jEnd   0x0040f6    program     static C:\MCC18\src\traditional\stdclib\scpyp2r.asm
+                     jEnd   0x00406e    program     static C:\MCC18\src\traditional\stdclib\strcmp.asm
+                     jEnd   0x004030    program     static C:\MCC18\src\traditional\stdclib\schrpgm.asm
+                     jEnd   0x003fec    program     static C:\MCC18\src\traditional\stdclib\scatp2r.asm
+                     jEnd   0x00440c    program     static C:\MCC18\src\traditional\stdclib\itobcd.asm
+                     jEnd   0x0042c2    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                 jEndLoop   0x0042aa    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                  jInner1   0x00416a    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+                  jInner1   0x0041b0    program     static C:\MCC18\src\traditional\stdclib\sspnrp.asm
+               jInnerLoop   0x00415e    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+               jInnerLoop   0x0041a6    program     static C:\MCC18\src\traditional\stdclib\sspnrp.asm
+                    jLoop   0x00425c    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                    jLoop   0x004120    program     static C:\MCC18\src\traditional\stdclib\strchr.asm
+                    jLoop   0x004108    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                    jLoop   0x003f9c    program     static C:\MCC18\src\traditional\stdclib\strcat.asm
+                    jLoop   0x003fe2    program     static C:\MCC18\src\traditional\stdclib\scatp2r.asm
+                    jLoop   0x004000    program     static C:\MCC18\src\traditional\stdclib\schrpgm.asm
+                    jLoop   0x0043e6    program     static C:\MCC18\src\traditional\stdclib\itobcd.asm
+                    jLoop   0x0041d8    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x004064    program     static C:\MCC18\src\traditional\stdclib\strcmp.asm
+                    jLoop   0x0040ac    program     static C:\MCC18\src\traditional\stdclib\strcpy.asm
+                    jLoop   0x0040ec    program     static C:\MCC18\src\traditional\stdclib\scpyp2r.asm
+                   jMatch   0x004d2c    program     static C:\MCC18\src\traditional\stdclib\isprint.asm
+                   jMatch   0x004132    program     static C:\MCC18\src\traditional\stdclib\strchr.asm
+                   jMatch   0x00401e    program     static C:\MCC18\src\traditional\stdclib\schrpgm.asm
+                   jMatch   0x004d08    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x004170    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+                 jNoMatch   0x004d0a    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x0041b8    program     static C:\MCC18\src\traditional\stdclib\sspnrp.asm
+                 jNoMatch   0x004d2e    program     static C:\MCC18\src\traditional\stdclib\isprint.asm
+                    jNull   0x0041b8    program     static C:\MCC18\src\traditional\stdclib\sspnrp.asm
+                    jNull   0x00417a    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+                jNullLoop   0x003f96    program     static C:\MCC18\src\traditional\stdclib\strcat.asm
+                jNullLoop   0x003fdc    program     static C:\MCC18\src\traditional\stdclib\scatp2r.asm
+               jOuterLoop   0x00414c    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+               jOuterLoop   0x004194    program     static C:\MCC18\src\traditional\stdclib\sspnrp.asm
+                  jSkipWS   0x004232    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                 jSkipWS1   0x004244    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstLowZ1   0x0043b8    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                 jTstSign   0x004248    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign1   0x004254    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign1   0x00431a    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                jTstSign2   0x00425a    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign3   0x00425c    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                     load   0x003956    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                     loop   0x004e86    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                     loop   0x004e6a    program     static                          
+                     loop   0x004d86    program     static                          
+                     main   0x004806    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+            msgAddCommand   0x000c7c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 msgCheck   0x0007cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              msgCpyFinal   0x000490    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 msgForMe   0x00066c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          msgGetsResponse   0x000f64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                msgIncPtr   0x00038c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                  msgInit   0x00012c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 msgIs2nd   0x000730    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+            msgIsComplete   0x000798    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               msgIsFirst   0x0006fe    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 msgIsNew   0x000764    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             msgIsWaiting   0x0006cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             msgParseAddr   0x000936    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          msgParseForCmds   0x000b10    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+        msgReadAddrEEPROM   0x000114    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                msgRecEnd   0x000612    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              msgRecStart   0x0005d6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+      msgRemoveTrailingCR   0x000368    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 msgReset   0x00024c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          msgSetRespParam   0x0012a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+        msgState2Complete   0x000468    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             msgState2New   0x000440    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          msgState2Rec2nd   0x000418    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+        msgState2RecFirst   0x0003f0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+         msgState2Waiting   0x0003ca    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+           msgStoreRxByte   0x000310    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                  openAll   0x0032fa    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                     putc   0x004ac2    program     extern C:\MCC18\src\traditional\stdclib\putc.c
+               rx_handler   0x004834    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+                   rx_int   0x000008    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+                 s_digits   0x004e92    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+            s_put_n_chars   0x001934    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+         setBitFromSParam   0x003818    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+               setBitHigh   0x0036ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+                setBitLow   0x003726    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+             setBitToggle   0x0037a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+               setErrResp   0x002e42    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                     setR   0x00345e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                    setid   0x002cdc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                  setport   0x002e84    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                  settris   0x00307c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                    setup   0x0048cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+                  sprintf   0x0048f4    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
+                  standby   0x0039f8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                   strcat   0x003f6e    program     extern C:\MCC18\src\traditional\stdclib\strcat.asm
+            strcatpgm2ram   0x003fb6    program     extern C:\MCC18\src\traditional\stdclib\scatp2r.asm
+                   strchr   0x004114    program     extern C:\MCC18\src\traditional\stdclib\strchr.asm
+                strchrpgm   0x003fee    program     extern C:\MCC18\src\traditional\stdclib\schrpgm.asm
+                   strcmp   0x004044    program     extern C:\MCC18\src\traditional\stdclib\strcmp.asm
+                   strcpy   0x004084    program     extern C:\MCC18\src\traditional\stdclib\strcpy.asm
+            strcpypgm2ram   0x0040c6    program     extern C:\MCC18\src\traditional\stdclib\scpyp2r.asm
+                   strlen   0x0040f8    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x0041ba    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
+            strpbrkrampgm   0x00413c    program     extern C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+             strspnrampgm   0x004180    program     extern C:\MCC18\src\traditional\stdclib\sspnrp.asm
+                 strtok_r   0x004422    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\strtok_r.c
+             strtokpgmram   0x0046da    program     extern C:\MCC18\src\traditional\stdclib\stokpr.c
+                     test   0x0049ba    program     static                          
+                 vfprintf   0x001960    program     extern C:\MCC18\src\traditional\stdclib\vfprintf.c
+                      who   0x002b6a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+             writeFromRam   0x0018ee    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             writeFromRom   0x001884    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                   ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   ADCON2   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               ADCON2bits   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  BAUDCON   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 BAUDCON1   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             BAUDCON1bits   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 BAUDCON2   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             BAUDCON2bits   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              BAUDCONbits   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                      BSR   0x000fe0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              CCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  CCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              CCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  CCP3CON   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              CCP3CONbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  CCP4CON   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              CCP4CONbits   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  CCP5CON   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              CCP5CONbits   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CCPR1   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR1H   0x000fbf       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR1L   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CCPR2   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR2H   0x000fbc       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR2L   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CCPR3   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR3H   0x000fb9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR3L   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CCPR4   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR4H   0x000f75       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR4L   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CCPR5   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR5H   0x000f72       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR5L   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CMCON   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                CMCONbits   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CVRCON   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               CVRCONbits   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRD   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRDbits   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRE   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDREbits   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRF   0x000f97       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRFbits   0x000f97       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRG   0x000f98       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRGbits   0x000f98       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRH   0x000f99       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRHbits   0x000f99       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRJ   0x000f9a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRJbits   0x000f9a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+            DelayCounter1   0x00001f       data     extern C:\MCC18\src\traditional\delays\delayd1.asm
+            DelayCounter2   0x00001e       data     extern C:\MCC18\src\traditional\delays\delayd2.asm
+                  ECCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP1DEL   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP1DELbits   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  ECCP2AS   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              ECCP2ASbits   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP2DEL   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP2DELbits   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  ECCP3AS   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              ECCP3ASbits   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP3CON   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP3CONbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP3DEL   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP3DELbits   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    EEADR   0x000fa9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   EEADRH   0x000faa       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   EEDATA   0x000fa8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  HLVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              HLVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     IPR3   0x000fa5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 IPR3bits   0x000fa5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATA   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATD   0x000f8c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATDbits   0x000f8c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATE   0x000f8d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATEbits   0x000f8d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATF   0x000f8e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATFbits   0x000f8e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATG   0x000f8f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATGbits   0x000f8f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATH   0x000f90       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATHbits   0x000f90       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATJ   0x000f91       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATJbits   0x000f91       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   LVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               LVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               MAXREAGENT   0x0005fd       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                   MEMCON   0x000f9c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               MEMCONbits   0x000f9c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   OSCCON   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                       PC   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIE3   0x000fa3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIE3bits   0x000fa3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIR3   0x000fa4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIR3bits   0x000fa4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTA   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTD   0x000f83       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTDbits   0x000f83       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTF   0x000f85       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTFbits   0x000f85       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTG   0x000f86       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTGbits   0x000f86       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTH   0x000f87       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTHbits   0x000f87       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTJ   0x000f88       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTJbits   0x000f88       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                      PR4   0x000f77       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PSPCON   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               PSPCONbits   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PreStr   0x0005fa       data     static C:\MCC18\src\traditional\stdclib\stokpr.c
+                     RCON   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    RCREG   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   RCREG1   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   RCREG2   0x000f6e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    RCSTA   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   RCSTA1   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               RCSTA1bits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   RCSTA2   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               RCSTA2bits   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                RCSTAbits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     SIGN   0x000009       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                    SPBRG   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   SPBRG1   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   SPBRG2   0x000f6f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   SPBRGH   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SPBRGH1   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SPBRGH2   0x000f7d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSP1ADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSP1BUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP1CON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             SSP1CON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP1CON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             SSP1CON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP1STAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             SSP1STATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSP2ADD   0x000f65       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSP2BUF   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP2CON1   0x000f63       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             SSP2CON1bits   0x000f63       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP2CON2   0x000f62       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             SSP2CON2bits   0x000f62       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP2STAT   0x000f64       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             SSP2STATbits   0x000f64       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    T0CON   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    T3CON   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                T3CONbits   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    T4CON   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                T4CONbits   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR3H   0x000fb3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR3L   0x000fb2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     TMR4   0x000f78       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISD   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISDbits   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISE   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISEbits   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISF   0x000f97       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISFbits   0x000f97       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISG   0x000f98       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISGbits   0x000f98       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISH   0x000f99       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISHbits   0x000f99       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISJ   0x000f9a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISJbits   0x000f9a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TXREG   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TXREG1   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TXREG2   0x000f6d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TXSTA   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TXSTA1   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               TXSTA1bits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TXSTA2   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               TXSTA2bits   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TXSTAbits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+            USART1_Status   0x0003ff       data     extern C:\MCC18\src\pmc_common\USART\u1defs.c
+                   WDTCON   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               WDTCONbits   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 __AARGB0   0x000007       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB1   0x000006       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB2   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB3   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB4   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB5   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB6   0x000001       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB7   0x000000       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                   __AEXP   0x000008       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __BARGB0   0x00000e       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB3   0x00000b       data     extern C:\MCC18\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern C:\MCC18\src\traditional\math\barg.asm
+                __FPFLAGS   0x00000a       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x00000a       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                  __REMB0   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB1   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB2   0x000001       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB3   0x000000       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                   __TEMP   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB3   0x000010       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static C:\MCC18\src\traditional\stdclib\sprintf.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\traditional\stdclib\stokpr.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\traditional\stdclib\putc.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\EEP\write_B.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\EEP\read_B.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\USART\u1open.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\strtok_r.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\isNumeric.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
+                     addy   0x0005fc       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               cmdRespBuf   0x000f13       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+              cmpltmsgbuf   0x000700       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 commands   0x000200       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                curr_byte   0x0003f8       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x0003fa       data     static C:\MCC18\src\traditional\startup\c018i.c
+                 data_ptr   0x0003fc       data     static C:\MCC18\src\traditional\startup\c018i.c
+                  execmds   0x000400       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                      msg   0x000f00       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                msgBuffer   0x000600       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 msgstate   0x0005f1       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                     pcmd   0x0005f4       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                     pmsg   0x0005f2       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                     prom   0x0003f5       data     static C:\MCC18\src\traditional\startup\c018i.c
+                      rdm   0x0005f8       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               sendBuffer   0x000100       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                  sendPtr   0x0005f6       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
+       ___return_lbl00000   0x000004    program     static                          
+               _user_putc   0x000006    program     extern C:\MCC18\src\traditional\stdclib\_user_putc.c
+                   rx_int   0x000008    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+       ___return_lbl00004   0x00000c    program     static                          
+            MojoWriteByte   0x000034    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          MojoWriteRomStr   0x000054    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          MojoWriteRamStr   0x0000a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             MojoReadByte   0x0000f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+        msgReadAddrEEPROM   0x000114    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                  msgInit   0x00012c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 msgReset   0x00024c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+           msgStoreRxByte   0x000310    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+      msgRemoveTrailingCR   0x000368    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                msgIncPtr   0x00038c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+         msgState2Waiting   0x0003ca    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+        msgState2RecFirst   0x0003f0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          msgState2Rec2nd   0x000418    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             msgState2New   0x000440    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+        msgState2Complete   0x000468    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              msgCpyFinal   0x000490    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                cmds_init   0x0004e4    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 cmd_init   0x000572    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          initializeUsart   0x0005bc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              msgRecStart   0x0005d6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                msgRecEnd   0x000612    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 msgForMe   0x00066c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             msgIsWaiting   0x0006cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               msgIsFirst   0x0006fe    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 msgIs2nd   0x000730    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 msgIsNew   0x000764    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+            msgIsComplete   0x000798    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 msgCheck   0x0007cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             msgParseAddr   0x000936    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          msgParseForCmds   0x000b10    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+            msgAddCommand   0x000c7c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          msgGetsResponse   0x000f64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          msgSetRespParam   0x0012a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+        initializeMojobus   0x0013a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             MessageReady   0x0013ba    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                    MsgRx   0x0013da    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                   GetMsg   0x0013fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+            PrintCommands   0x001448    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             ExecCommands   0x0015b8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                  Respond   0x0017ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          ReadyForNextMsg   0x0017f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          PrintCurrentMsg   0x001862    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             writeFromRom   0x001884    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             writeFromRam   0x0018ee    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+            s_put_n_chars   0x001934    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                 vfprintf   0x001960    program     extern C:\MCC18\src\traditional\stdclib\vfprintf.c
+              __tmplbl_85   0x00198a    program     static                          
+              __tmplbl_44   0x002238    program     static                          
+              __tmplbl_43   0x002252    program     static                          
+                   __pa_0   0x002274    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_1   0x00227c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_2   0x002286    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x002290    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x0022a8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_5   0x0022bc    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_6   0x0022d8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_7   0x0022e2    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_8   0x0022ee    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_9   0x002310    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_10   0x002330    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_11   0x00233e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x002354    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_13   0x00236e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_14   0x002386    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_15   0x002396    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_16   0x0023ac    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_17   0x0023be    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_18   0x0023d0    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_19   0x0023da    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_20   0x0023ea    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_21   0x0023fa    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+              __tmplbl_42   0x00240a    program     static                          
+                  __pa_22   0x00240a    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_23   0x002416    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_24   0x002424    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_25   0x00242c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_26   0x002436    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_27   0x002440    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_28   0x002448    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x002456    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_30   0x002472    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_31   0x00248c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_32   0x0024a6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_33   0x0024be    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_34   0x0024c8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_35   0x0024d6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_36   0x0024de    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_37   0x0024e8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_38   0x0024f8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_39   0x002506    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_40   0x002512    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_41   0x00251e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_42   0x002526    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_43   0x002530    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_44   0x002536    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_45   0x002540    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_46   0x00254c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   addFxn   0x002556    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                  findFxn   0x0025fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+       initializeMojocmds   0x002704    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                 NotFound   0x002b1e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                      who   0x002b6a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                     annc   0x002c0a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                    setid   0x002cdc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               setErrResp   0x002e42    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                  setport   0x002e84    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                  settris   0x00307c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                    Hello   0x003254    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                    Blink   0x0032a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                  openAll   0x0032fa    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                 closeAll   0x0033ac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                     setR   0x00345e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                  getPort   0x00358c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+                  getTris   0x00361c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+               setBitHigh   0x0036ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+                setBitLow   0x003726    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+             setBitToggle   0x0037a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+         setBitFromSParam   0x003818    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+                     load   0x003956    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                  standby   0x0039f8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                  deliver   0x003a9a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                 RDMSetup   0x003c2e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+              RDM2Standby   0x003c36    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                 RDM2Load   0x003c3e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               RDM2Manual   0x003c46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+            RDMSetReagent   0x003c4e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+              RDM2Deliver   0x003c64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               RDMDeliver   0x003c6c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                   RDMRun   0x003c9c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+         asciiHexToNibble   0x003ccc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
+           asciiHexToBtye   0x003dac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
+           byteToAsciiHex   0x003e5a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
+                   strcat   0x003f6e    program     extern C:\MCC18\src\traditional\stdclib\strcat.asm
+                jNullLoop   0x003f96    program     static C:\MCC18\src\traditional\stdclib\strcat.asm
+                    jLoop   0x003f9c    program     static C:\MCC18\src\traditional\stdclib\strcat.asm
+            strcatpgm2ram   0x003fb6    program     extern C:\MCC18\src\traditional\stdclib\scatp2r.asm
+                jNullLoop   0x003fdc    program     static C:\MCC18\src\traditional\stdclib\scatp2r.asm
+                    jLoop   0x003fe2    program     static C:\MCC18\src\traditional\stdclib\scatp2r.asm
+                     jEnd   0x003fec    program     static C:\MCC18\src\traditional\stdclib\scatp2r.asm
+                strchrpgm   0x003fee    program     extern C:\MCC18\src\traditional\stdclib\schrpgm.asm
+                    jLoop   0x004000    program     static C:\MCC18\src\traditional\stdclib\schrpgm.asm
+                   jMatch   0x00401e    program     static C:\MCC18\src\traditional\stdclib\schrpgm.asm
+                     jEnd   0x004030    program     static C:\MCC18\src\traditional\stdclib\schrpgm.asm
+                   strcmp   0x004044    program     extern C:\MCC18\src\traditional\stdclib\strcmp.asm
+                    jLoop   0x004064    program     static C:\MCC18\src\traditional\stdclib\strcmp.asm
+                     jEnd   0x00406e    program     static C:\MCC18\src\traditional\stdclib\strcmp.asm
+                   strcpy   0x004084    program     extern C:\MCC18\src\traditional\stdclib\strcpy.asm
+                    jLoop   0x0040ac    program     static C:\MCC18\src\traditional\stdclib\strcpy.asm
+            strcpypgm2ram   0x0040c6    program     extern C:\MCC18\src\traditional\stdclib\scpyp2r.asm
+                    jLoop   0x0040ec    program     static C:\MCC18\src\traditional\stdclib\scpyp2r.asm
+                     jEnd   0x0040f6    program     static C:\MCC18\src\traditional\stdclib\scpyp2r.asm
+                   strlen   0x0040f8    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
+                    jLoop   0x004108    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                     jEnd   0x004112    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                   strchr   0x004114    program     extern C:\MCC18\src\traditional\stdclib\strchr.asm
+                    jLoop   0x004120    program     static C:\MCC18\src\traditional\stdclib\strchr.asm
+                   jMatch   0x004132    program     static C:\MCC18\src\traditional\stdclib\strchr.asm
+                     jEnd   0x00413a    program     static C:\MCC18\src\traditional\stdclib\strchr.asm
+            strpbrkrampgm   0x00413c    program     extern C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+               jOuterLoop   0x00414c    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+               jInnerLoop   0x00415e    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+                  jInner1   0x00416a    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+                   jMatch   0x004170    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+                     jEnd   0x004178    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+                    jNull   0x00417a    program     static C:\MCC18\src\traditional\stdclib\spbrkrp.asm
+             strspnrampgm   0x004180    program     extern C:\MCC18\src\traditional\stdclib\sspnrp.asm
+               jOuterLoop   0x004194    program     static C:\MCC18\src\traditional\stdclib\sspnrp.asm
+               jInnerLoop   0x0041a6    program     static C:\MCC18\src\traditional\stdclib\sspnrp.asm
+                  jInner1   0x0041b0    program     static C:\MCC18\src\traditional\stdclib\sspnrp.asm
+                 jNoMatch   0x0041b8    program     static C:\MCC18\src\traditional\stdclib\sspnrp.asm
+                    jNull   0x0041b8    program     static C:\MCC18\src\traditional\stdclib\sspnrp.asm
+                strlenpgm   0x0041ba    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x0041d8    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x0041ee    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x0041f0    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                     atoi   0x004204    program     extern C:\MCC18\src\traditional\stdclib\atoi.asm
+                  jSkipWS   0x004232    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                 jSkipWS1   0x004244    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                 jTstSign   0x004248    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign1   0x004254    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign2   0x00425a    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                    jLoop   0x00425c    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign3   0x00425c    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                 jEndLoop   0x0042aa    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                     jEnd   0x0042c2    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                     itoa   0x0042ee    program     extern C:\MCC18\src\traditional\stdclib\itoa.asm
+                jTstSign1   0x00431a    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                     jDo5   0x004364    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                     jDo4   0x004368    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                     jDo3   0x00436c    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                     jDo2   0x004370    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                     jDo1   0x004374    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                 TstUpper   0x0043a8    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                 TstLower   0x0043ae    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                jTstLowZ1   0x0043b8    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                ProcUpper   0x0043ba    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                ProcLower   0x0043c4    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
+                   itoBCD   0x0043ce    program     extern C:\MCC18\src\traditional\stdclib\itobcd.asm
+                    jLoop   0x0043e6    program     static C:\MCC18\src\traditional\stdclib\itobcd.asm
+                     jEnd   0x00440c    program     static C:\MCC18\src\traditional\stdclib\itobcd.asm
+                  OneByte   0x004410    program     static C:\MCC18\src\traditional\stdclib\itobcd.asm
+                 strtok_r   0x004422    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\strtok_r.c
+               __string_2   0x00458e    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+               __string_1   0x004597    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+               __string_0   0x00459e    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+               __string_0   0x0045a8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+              __string_33   0x0045ba    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_32   0x0045c4    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_31   0x0045c8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_30   0x0045cb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_29   0x0045cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_28   0x0045d7    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_27   0x0045dd    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_26   0x0045e3    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_25   0x0045e8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_24   0x0045eb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_23   0x0045ee    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_22   0x0045f1    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_21   0x0045f4    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_20   0x0045f7    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_19   0x0045fa    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_18   0x004601    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_17   0x004607    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_16   0x00460d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_15   0x004613    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_14   0x004619    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_13   0x00461f    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_12   0x004625    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_11   0x00462b    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_10   0x004631    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_9   0x004637    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_8   0x00463d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_7   0x004643    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_6   0x004649    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_5   0x00464f    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_4   0x004655    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_3   0x00465b    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_2   0x004660    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_1   0x004664    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+               __string_0   0x004667    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+              __string_13   0x00466a    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              __string_12   0x004673    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              __string_11   0x004675    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              __string_10   0x00467c    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_9   0x00469a    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_8   0x00469d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_7   0x0046a5    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_6   0x0046ac    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_5   0x0046ae    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_4   0x0046b0    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_3   0x0046b9    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_2   0x0046bb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_1   0x0046bd    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_0   0x0046bf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_2   0x0046c0    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               __string_1   0x0046cc    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               __string_0   0x0046cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+             strtokpgmram   0x0046da    program     extern C:\MCC18\src\traditional\stdclib\stokpr.c
+                   __pa_0   0x0047d6    program     static C:\MCC18\src\traditional\stdclib\stokpr.c
+                   __pa_1   0x0047e4    program     static C:\MCC18\src\traditional\stdclib\stokpr.c
+                   __pa_2   0x0047f8    program     static C:\MCC18\src\traditional\stdclib\stokpr.c
+                     main   0x004806    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+               rx_handler   0x004834    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+                    setup   0x0048cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+                  sprintf   0x0048f4    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
+                _do_cinit   0x0049a0    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     test   0x0049ba    program     static                          
+                copy_loop   0x004a12    program     static                          
+            copy_one_byte   0x004a18    program     static                          
+             done_copying   0x004a26    program     static                          
+       ___return_lbl00002   0x004a3c    program     static                          
+                     done   0x004a3c    program     static                          
+               Open1USART   0x004a3e    program     extern C:\MCC18\src\pmc_common\USART\u1open.c
+                     putc   0x004ac2    program     extern C:\MCC18\src\traditional\stdclib\putc.c
+                isNumeric   0x004b46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\isNumeric.c
+                  FXM3232   0x004bc2    program     extern C:\MCC18\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x004c30    program     static                          
+              Write_b_eep   0x004c32    program     extern C:\MCC18\src\pmc_common\EEP\write_B.c
+                 FXM1616S   0x004c8e    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x004cda    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
+                  isdigit   0x004ce8    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x004d08    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x004d0a    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                  isprint   0x004d0c    program     extern C:\MCC18\src\traditional\stdclib\isprint.asm
+                   jMatch   0x004d2c    program     static C:\MCC18\src\traditional\stdclib\isprint.asm
+                 jNoMatch   0x004d2e    program     static C:\MCC18\src\traditional\stdclib\isprint.asm
+               Read_b_eep   0x004d30    program     extern C:\MCC18\src\pmc_common\EEP\read_B.c
+                 FXD3232U   0x004d78    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
+                     loop   0x004d86    program     static                          
+                   _false   0x004dba    program     static                          
+       ___return_lbl00000   0x004dbe    program     static                          
+               Read1USART   0x004dc0    program     extern C:\MCC18\src\pmc_common\USART\u1read.c
+             Delay10KTCYx   0x004dfe    program     extern C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x004e08    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x004e0a    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x004e0e    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x004e16    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x004e1a    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+              Write1USART   0x004e2c    program     extern C:\MCC18\src\pmc_common\USART\u1write.c
+                 _startup   0x004e5a    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     loop   0x004e6a    program     static                          
+       ___return_lbl00001   0x004e74    program     static                          
+              _usart_putc   0x004e76    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                     loop   0x004e86    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                 s_digits   0x004e92    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+            __zero_memory   0x004ea4    program     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               clear_loop   0x004eaa    program     static C:\MCC18\src\traditional\proc\p18F8722.asm
+                 Busy_eep   0x004eb2    program     extern C:\MCC18\src\pmc_common\EEP\busy_eep.c
+                   __init   0x004eb8    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+               __config_0   0x300001    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+               __config_1   0x300003    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+               __config_2   0x300006    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+                  __REMB3   0x000000       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB7   0x000000       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB2   0x000001       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB6   0x000001       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB1   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB5   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB0   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB4   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB3   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB2   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB1   0x000006       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB0   0x000007       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                   __AEXP   0x000008       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                     SIGN   0x000009       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x00000a       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x00000a       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                 __BARGB3   0x00000b       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB0   0x00000e       data     extern C:\MCC18\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __TEMPB3   0x000010       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                   __TEMP   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\USART\u1open.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\EEP\read_B.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\EEP\write_B.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\traditional\stdclib\putc.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\traditional\stdclib\stokpr.c
+                  __tmp_0   0x000014       data     static C:\MCC18\src\traditional\stdclib\sprintf.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\strtok_r.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\isNumeric.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+            DelayCounter2   0x00001e       data     extern C:\MCC18\src\traditional\delays\delayd2.asm
+            DelayCounter1   0x00001f       data     extern C:\MCC18\src\traditional\delays\delayd1.asm
+               sendBuffer   0x000100       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 commands   0x000200       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                     prom   0x0003f5       data     static C:\MCC18\src\traditional\startup\c018i.c
+                curr_byte   0x0003f8       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x0003fa       data     static C:\MCC18\src\traditional\startup\c018i.c
+                 data_ptr   0x0003fc       data     static C:\MCC18\src\traditional\startup\c018i.c
+            USART1_Status   0x0003ff       data     extern C:\MCC18\src\pmc_common\USART\u1defs.c
+                  execmds   0x000400       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                 msgstate   0x0005f1       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                     pmsg   0x0005f2       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                     pcmd   0x0005f4       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                  sendPtr   0x0005f6       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                      rdm   0x0005f8       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                   PreStr   0x0005fa       data     static C:\MCC18\src\traditional\stdclib\stokpr.c
+                     addy   0x0005fc       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               MAXREAGENT   0x0005fd       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                msgBuffer   0x000600       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+              cmpltmsgbuf   0x000700       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                      msg   0x000f00       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               cmdRespBuf   0x000f13       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+             SSP2CON2bits   0x000f62       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP2CON2   0x000f62       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP2CON1   0x000f63       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             SSP2CON1bits   0x000f63       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP2STAT   0x000f64       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             SSP2STATbits   0x000f64       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSP2ADD   0x000f65       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSP2BUF   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP2DEL   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP2DELbits   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              ECCP2ASbits   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  ECCP2AS   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP3DEL   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP3DELbits   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  ECCP3AS   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              ECCP3ASbits   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               RCSTA2bits   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   RCSTA2   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               TXSTA2bits   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TXSTA2   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TXREG2   0x000f6d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   RCREG2   0x000f6e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   SPBRG2   0x000f6f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  CCP5CON   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              CCP5CONbits   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR5L   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CCPR5   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR5H   0x000f72       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  CCP4CON   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              CCP4CONbits   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR4L   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CCPR4   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR4H   0x000f75       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    T4CON   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                T4CONbits   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                      PR4   0x000f77       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     TMR4   0x000f78       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP1DELbits   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP1DEL   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 BAUDCON2   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             BAUDCON2bits   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SPBRGH2   0x000f7d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  BAUDCON   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 BAUDCON1   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             BAUDCON1bits   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              BAUDCONbits   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   SPBRGH   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SPBRGH1   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTA   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTD   0x000f83       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTDbits   0x000f83       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTF   0x000f85       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTFbits   0x000f85       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTG   0x000f86       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTGbits   0x000f86       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTH   0x000f87       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTHbits   0x000f87       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PORTJ   0x000f88       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                PORTJbits   0x000f88       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATA   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATDbits   0x000f8c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATD   0x000f8c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATEbits   0x000f8d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATE   0x000f8d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATFbits   0x000f8e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATF   0x000f8e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATG   0x000f8f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATGbits   0x000f8f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATHbits   0x000f90       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATH   0x000f90       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 LATJbits   0x000f91       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     LATJ   0x000f91       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISD   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISDbits   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRD   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRDbits   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISE   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRE   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISEbits   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDREbits   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISF   0x000f97       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISFbits   0x000f97       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRFbits   0x000f97       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRF   0x000f97       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRG   0x000f98       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRGbits   0x000f98       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISGbits   0x000f98       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISG   0x000f98       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISH   0x000f99       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISHbits   0x000f99       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRHbits   0x000f99       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRH   0x000f99       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TRISJ   0x000f9a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TRISJbits   0x000f9a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 DDRJbits   0x000f9a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     DDRJ   0x000f9a       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   MEMCON   0x000f9c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               MEMCONbits   0x000f9c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIE3bits   0x000fa3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIE3   0x000fa3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PIR3   0x000fa4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 PIR3bits   0x000fa4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 IPR3bits   0x000fa5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     IPR3   0x000fa5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   EEDATA   0x000fa8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    EEADR   0x000fa9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   EEADRH   0x000faa       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                RCSTAbits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               RCSTA1bits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   RCSTA1   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    RCSTA   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TXSTA   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TXSTA1   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               TXSTA1bits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                TXSTAbits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TXREG1   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TXREG   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   RCREG1   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    RCREG   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   SPBRG1   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    SPBRG   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PSPCON   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               PSPCONbits   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    T3CON   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                T3CONbits   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR3L   0x000fb2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR3H   0x000fb3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                CMCONbits   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CMCON   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               CVRCONbits   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CVRCON   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  ECCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  CCP3CON   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              CCP3CONbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP3CON   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP3CONbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR3L   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CCPR3   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR3H   0x000fb9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  CCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              CCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR2L   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CCPR2   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR2H   0x000fbc       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 ECCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             ECCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              CCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR1L   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    CCPR1   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   CCPR1H   0x000fbf       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               ADCON2bits   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   ADCON2   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             SSP1CON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP1CON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP1CON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             SSP1CON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+             SSP1STATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 SSP1STAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSP1ADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  SSP1BUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     RCON   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   WDTCON   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               WDTCONbits   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  HLVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              HLVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               LVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   LVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   OSCCON   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    T0CON   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                      BSR   0x000fe0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                       PC   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
+
+
