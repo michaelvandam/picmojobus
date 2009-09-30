@@ -1,0 +1,7 @@
+#define ID "ID"
+#define BAUD "BAUD"
+#define SAVEBAUD "SAVEBAUD"
+#define WHOIS "WHO"
+#define ANNC  "ANNC"
+#define STATE "STATE"
+#define MANUALSET "MAN"
