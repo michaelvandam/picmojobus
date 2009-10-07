@@ -1,5 +1,5 @@
 MPLINK 4.31, Linker
-Linker Map File - Created Wed Sep 30 13:44:34 2009
+Linker Map File - Created Tue Oct 06 18:59:47 2009
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -181,43 +181,43 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                    Blink   0x0032a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                    Blink   0x0032a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
                  Busy_eep   0x004eb2    program     extern C:\MCC18\src\pmc_common\EEP\busy_eep.c
                    D10K_1   0x004e0a    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
                     D10Kl   0x004e16    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
                     D10Kx   0x004e08    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
              Delay10KTCYx   0x004dfe    program     extern C:\MCC18\src\traditional\delays\d10ktcyx.asm
-             ExecCommands   0x0015b8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+             ExecCommands   0x0015b8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
                  FXD3232U   0x004d78    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
                  FXM1616S   0x004c8e    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
                   FXM3232   0x004bc2    program     extern C:\MCC18\src\traditional\math\fxm3232.c
-                   GetMsg   0x0013fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                    Hello   0x003254    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-             MessageReady   0x0013ba    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             MojoReadByte   0x0000f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-            MojoWriteByte   0x000034    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          MojoWriteRamStr   0x0000a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          MojoWriteRomStr   0x000054    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                    MsgRx   0x0013da    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 NotFound   0x002b1e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                   GetMsg   0x0013fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                    Hello   0x003254    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+             MessageReady   0x0013ba    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             MojoReadByte   0x0000f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+            MojoWriteByte   0x000034    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          MojoWriteRamStr   0x0000a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          MojoWriteRomStr   0x000054    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                    MsgRx   0x0013da    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 NotFound   0x002b1e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
                   OneByte   0x004410    program     static C:\MCC18\src\traditional\stdclib\itobcd.asm
                Open1USART   0x004a3e    program     extern C:\MCC18\src\pmc_common\USART\u1open.c
-            PrintCommands   0x001448    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          PrintCurrentMsg   0x001862    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+            PrintCommands   0x001448    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          PrintCurrentMsg   0x001862    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
                 ProcLower   0x0043c4    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
                 ProcUpper   0x0043ba    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
-              RDM2Deliver   0x003c64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-                 RDM2Load   0x003c3e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-               RDM2Manual   0x003c46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-              RDM2Standby   0x003c36    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-               RDMDeliver   0x003c6c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-                   RDMRun   0x003c9c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-            RDMSetReagent   0x003c4e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-                 RDMSetup   0x003c2e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+              RDM2Deliver   0x003c64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+                 RDM2Load   0x003c3e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+               RDM2Manual   0x003c46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+              RDM2Standby   0x003c36    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+               RDMDeliver   0x003c6c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+                   RDMRun   0x003c9c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+            RDMSetReagent   0x003c4e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+                 RDMSetup   0x003c2e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
                Read1USART   0x004dc0    program     extern C:\MCC18\src\pmc_common\USART\u1read.c
                Read_b_eep   0x004d30    program     extern C:\MCC18\src\pmc_common\EEP\read_B.c
-          ReadyForNextMsg   0x0017f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                  Respond   0x0017ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+          ReadyForNextMsg   0x0017f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                  Respond   0x0017ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
                TSIGN1616A   0x004cda    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
                  TstLower   0x0043ae    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
                  TstUpper   0x0043a8    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
@@ -232,9 +232,9 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
        ___return_lbl00001   0x004e74    program     static                          
        ___return_lbl00002   0x004a3c    program     static                          
        ___return_lbl00004   0x00000c    program     static                          
-               __config_0   0x300001    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
-               __config_1   0x300003    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
-               __config_2   0x300006    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+               __config_0   0x300001    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
+               __config_1   0x300003    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
+               __config_2   0x300006    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
                    __init   0x004eb8    program     extern C:\MCC18\src\traditional\stdclib\__init.c
                    __pa_0   0x002274    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                    __pa_0   0x0047d6    program     static C:\MCC18\src\traditional\stdclib\stokpr.c
@@ -286,61 +286,61 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                    __pa_7   0x0022e2    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                    __pa_8   0x0022ee    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                    __pa_9   0x002310    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-               __string_0   0x0046cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-               __string_0   0x0045a8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
-               __string_0   0x0046bf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_0   0x00459e    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-               __string_0   0x004667    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_1   0x004664    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_1   0x0046cc    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-               __string_1   0x004597    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-               __string_1   0x0046bd    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              __string_10   0x004631    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_10   0x00467c    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              __string_11   0x004675    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              __string_11   0x00462b    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_12   0x004673    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              __string_12   0x004625    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_13   0x00461f    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_13   0x00466a    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              __string_14   0x004619    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_15   0x004613    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_16   0x00460d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_17   0x004607    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_18   0x004601    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_19   0x0045fa    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_2   0x004660    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_2   0x0046c0    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-               __string_2   0x00458e    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-               __string_2   0x0046bb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              __string_20   0x0045f7    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_21   0x0045f4    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_22   0x0045f1    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_23   0x0045ee    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_24   0x0045eb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_25   0x0045e8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_26   0x0045e3    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_27   0x0045dd    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_28   0x0045d7    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_29   0x0045cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_3   0x0046b9    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_3   0x00465b    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_30   0x0045cb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_31   0x0045c8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_32   0x0045c4    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_33   0x0045ba    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_4   0x004655    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_4   0x0046b0    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_5   0x00464f    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_5   0x0046ae    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_6   0x0046ac    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_6   0x004649    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_7   0x0046a5    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_7   0x004643    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_8   0x00469d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_8   0x00463d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_9   0x004637    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_9   0x00469a    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               __string_0   0x0046cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+               __string_0   0x0045a8    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
+               __string_0   0x0046bf    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_0   0x00459e    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+               __string_0   0x004667    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_1   0x004664    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_1   0x0046cc    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+               __string_1   0x004597    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+               __string_1   0x0046bd    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              __string_10   0x004631    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_10   0x00467c    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              __string_11   0x004675    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              __string_11   0x00462b    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_12   0x004673    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              __string_12   0x004625    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_13   0x00461f    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_13   0x00466a    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              __string_14   0x004619    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_15   0x004613    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_16   0x00460d    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_17   0x004607    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_18   0x004601    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_19   0x0045fa    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_2   0x004660    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_2   0x0046c0    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+               __string_2   0x00458e    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+               __string_2   0x0046bb    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              __string_20   0x0045f7    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_21   0x0045f4    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_22   0x0045f1    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_23   0x0045ee    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_24   0x0045eb    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_25   0x0045e8    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_26   0x0045e3    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_27   0x0045dd    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_28   0x0045d7    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_29   0x0045cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_3   0x0046b9    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_3   0x00465b    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_30   0x0045cb    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_31   0x0045c8    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_32   0x0045c4    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_33   0x0045ba    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_4   0x004655    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_4   0x0046b0    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_5   0x00464f    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_5   0x0046ae    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_6   0x0046ac    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_6   0x004649    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_7   0x0046a5    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_7   0x004643    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_8   0x00469d    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_8   0x00463d    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_9   0x004637    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_9   0x00469a    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
               __tmplbl_42   0x00240a    program     static                          
               __tmplbl_43   0x002252    program     static                          
               __tmplbl_44   0x002238    program     static                          
@@ -352,28 +352,28 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                  _startup   0x004e5a    program     extern C:\MCC18\src\traditional\startup\c018i.c
               _usart_putc   0x004e76    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
                _user_putc   0x000006    program     extern C:\MCC18\src\traditional\stdclib\_user_putc.c
-                   addFxn   0x002556    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-                     annc   0x002c0a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-           asciiHexToBtye   0x003dac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
-         asciiHexToNibble   0x003ccc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
+                   addFxn   0x002556    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+                     annc   0x002c0a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+           asciiHexToBtye   0x003dac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\asciiConvert.c
+         asciiHexToNibble   0x003ccc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\asciiConvert.c
                      atoi   0x004204    program     extern C:\MCC18\src\traditional\stdclib\atoi.asm
-           byteToAsciiHex   0x003e5a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
+           byteToAsciiHex   0x003e5a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\asciiConvert.c
                clear_loop   0x004eaa    program     static C:\MCC18\src\traditional\proc\p18F8722.asm
-                 closeAll   0x0033ac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                 cmd_init   0x000572    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                cmds_init   0x0004e4    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                 closeAll   0x0033ac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                 cmd_init   0x000572    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                cmds_init   0x0004e4    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
                 copy_loop   0x004a12    program     static                          
             copy_one_byte   0x004a18    program     static                          
-                  deliver   0x003a9a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                  deliver   0x003a9a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
                      done   0x004a3c    program     static                          
              done_copying   0x004a26    program     static                          
-                  findFxn   0x0025fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-                  getPort   0x00358c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-                  getTris   0x00361c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-        initializeMojobus   0x0013a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-       initializeMojocmds   0x002704    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-          initializeUsart   0x0005bc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                isNumeric   0x004b46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\isNumeric.c
+                  findFxn   0x0025fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+                  getPort   0x00358c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+                  getTris   0x00361c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+        initializeMojobus   0x0013a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+       initializeMojocmds   0x002704    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+          initializeUsart   0x0005bc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                isNumeric   0x004b46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\isNumeric.c
                   isdigit   0x004ce8    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
                   isprint   0x004d0c    program     extern C:\MCC18\src\traditional\stdclib\isprint.asm
                    itoBCD   0x0043ce    program     extern C:\MCC18\src\traditional\stdclib\itobcd.asm
@@ -431,55 +431,55 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                 jTstSign1   0x00431a    program     static C:\MCC18\src\traditional\stdclib\itoa.asm
                 jTstSign2   0x00425a    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
                 jTstSign3   0x00425c    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
-                     load   0x003956    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                     load   0x003956    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
                      loop   0x004e86    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
                      loop   0x004e6a    program     static                          
                      loop   0x004d86    program     static                          
-                     main   0x004806    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
-            msgAddCommand   0x000c7c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 msgCheck   0x0007cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              msgCpyFinal   0x000490    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 msgForMe   0x00066c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          msgGetsResponse   0x000f64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                msgIncPtr   0x00038c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                  msgInit   0x00012c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 msgIs2nd   0x000730    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-            msgIsComplete   0x000798    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               msgIsFirst   0x0006fe    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 msgIsNew   0x000764    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             msgIsWaiting   0x0006cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             msgParseAddr   0x000936    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          msgParseForCmds   0x000b10    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-        msgReadAddrEEPROM   0x000114    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                msgRecEnd   0x000612    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              msgRecStart   0x0005d6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-      msgRemoveTrailingCR   0x000368    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 msgReset   0x00024c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          msgSetRespParam   0x0012a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-        msgState2Complete   0x000468    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             msgState2New   0x000440    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          msgState2Rec2nd   0x000418    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-        msgState2RecFirst   0x0003f0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-         msgState2Waiting   0x0003ca    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-           msgStoreRxByte   0x000310    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                  openAll   0x0032fa    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                     main   0x004806    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
+            msgAddCommand   0x000c7c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 msgCheck   0x0007cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              msgCpyFinal   0x000490    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 msgForMe   0x00066c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          msgGetsResponse   0x000f64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                msgIncPtr   0x00038c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                  msgInit   0x00012c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 msgIs2nd   0x000730    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+            msgIsComplete   0x000798    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               msgIsFirst   0x0006fe    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 msgIsNew   0x000764    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             msgIsWaiting   0x0006cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             msgParseAddr   0x000936    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          msgParseForCmds   0x000b10    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+        msgReadAddrEEPROM   0x000114    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                msgRecEnd   0x000612    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              msgRecStart   0x0005d6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+      msgRemoveTrailingCR   0x000368    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 msgReset   0x00024c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          msgSetRespParam   0x0012a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+        msgState2Complete   0x000468    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             msgState2New   0x000440    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          msgState2Rec2nd   0x000418    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+        msgState2RecFirst   0x0003f0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+         msgState2Waiting   0x0003ca    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+           msgStoreRxByte   0x000310    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                  openAll   0x0032fa    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
                      putc   0x004ac2    program     extern C:\MCC18\src\traditional\stdclib\putc.c
-               rx_handler   0x004834    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
-                   rx_int   0x000008    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+               rx_handler   0x004834    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
+                   rx_int   0x000008    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
                  s_digits   0x004e92    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
             s_put_n_chars   0x001934    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-         setBitFromSParam   0x003818    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-               setBitHigh   0x0036ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-                setBitLow   0x003726    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-             setBitToggle   0x0037a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-               setErrResp   0x002e42    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                     setR   0x00345e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                    setid   0x002cdc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-                  setport   0x002e84    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                  settris   0x00307c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                    setup   0x0048cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+         setBitFromSParam   0x003818    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+               setBitHigh   0x0036ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+                setBitLow   0x003726    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+             setBitToggle   0x0037a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+               setErrResp   0x002e42    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                     setR   0x00345e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                    setid   0x002cdc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+                  setport   0x002e84    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                  settris   0x00307c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                    setup   0x0048cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
                   sprintf   0x0048f4    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
-                  standby   0x0039f8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                  standby   0x0039f8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
                    strcat   0x003f6e    program     extern C:\MCC18\src\traditional\stdclib\strcat.asm
             strcatpgm2ram   0x003fb6    program     extern C:\MCC18\src\traditional\stdclib\scatp2r.asm
                    strchr   0x004114    program     extern C:\MCC18\src\traditional\stdclib\strchr.asm
@@ -491,13 +491,13 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                 strlenpgm   0x0041ba    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
             strpbrkrampgm   0x00413c    program     extern C:\MCC18\src\traditional\stdclib\spbrkrp.asm
              strspnrampgm   0x004180    program     extern C:\MCC18\src\traditional\stdclib\sspnrp.asm
-                 strtok_r   0x004422    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\strtok_r.c
+                 strtok_r   0x004422    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\strtok_r.c
              strtokpgmram   0x0046da    program     extern C:\MCC18\src\traditional\stdclib\stokpr.c
                      test   0x0049ba    program     static                          
                  vfprintf   0x001960    program     extern C:\MCC18\src\traditional\stdclib\vfprintf.c
-                      who   0x002b6a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-             writeFromRam   0x0018ee    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             writeFromRom   0x001884    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                      who   0x002b6a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+             writeFromRam   0x0018ee    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             writeFromRom   0x001884    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
                    ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
                ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
                    ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
@@ -633,7 +633,7 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                  LATJbits   0x000f91       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
                    LVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
                LVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
-               MAXREAGENT   0x0005fd       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+               MAXREAGENT   0x0005fd       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
                    MEMCON   0x000f9c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
                MEMCONbits   0x000f9c       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
                    OSCCON   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
@@ -830,31 +830,31 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                   __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\EEP\write_B.c
                   __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\EEP\read_B.c
                   __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\USART\u1open.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\strtok_r.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\isNumeric.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
-                     addy   0x0005fc       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               cmdRespBuf   0x000f13       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-              cmpltmsgbuf   0x000700       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 commands   0x000200       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\strtok_r.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\isNumeric.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\asciiConvert.c
+                     addy   0x0005fc       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               cmdRespBuf   0x000f13       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+              cmpltmsgbuf   0x000700       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 commands   0x000200       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
                 curr_byte   0x0003f8       data     static C:\MCC18\src\traditional\startup\c018i.c
                curr_entry   0x0003fa       data     static C:\MCC18\src\traditional\startup\c018i.c
                  data_ptr   0x0003fc       data     static C:\MCC18\src\traditional\startup\c018i.c
-                  execmds   0x000400       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-                      msg   0x000f00       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                msgBuffer   0x000600       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 msgstate   0x0005f1       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                     pcmd   0x0005f4       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                     pmsg   0x0005f2       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                  execmds   0x000400       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+                      msg   0x000f00       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                msgBuffer   0x000600       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 msgstate   0x0005f1       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                     pcmd   0x0005f4       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                     pmsg   0x0005f2       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
                      prom   0x0003f5       data     static C:\MCC18\src\traditional\startup\c018i.c
-                      rdm   0x0005f8       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-               sendBuffer   0x000100       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                  sendPtr   0x0005f6       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+                      rdm   0x0005f8       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+               sendBuffer   0x000100       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                  sendPtr   0x0005f6       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
 
 
 
@@ -864,52 +864,52 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                    _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
        ___return_lbl00000   0x000004    program     static                          
                _user_putc   0x000006    program     extern C:\MCC18\src\traditional\stdclib\_user_putc.c
-                   rx_int   0x000008    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+                   rx_int   0x000008    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
        ___return_lbl00004   0x00000c    program     static                          
-            MojoWriteByte   0x000034    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          MojoWriteRomStr   0x000054    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          MojoWriteRamStr   0x0000a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             MojoReadByte   0x0000f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-        msgReadAddrEEPROM   0x000114    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                  msgInit   0x00012c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 msgReset   0x00024c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-           msgStoreRxByte   0x000310    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-      msgRemoveTrailingCR   0x000368    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                msgIncPtr   0x00038c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-         msgState2Waiting   0x0003ca    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-        msgState2RecFirst   0x0003f0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          msgState2Rec2nd   0x000418    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             msgState2New   0x000440    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-        msgState2Complete   0x000468    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              msgCpyFinal   0x000490    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                cmds_init   0x0004e4    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 cmd_init   0x000572    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          initializeUsart   0x0005bc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              msgRecStart   0x0005d6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                msgRecEnd   0x000612    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 msgForMe   0x00066c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             msgIsWaiting   0x0006cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               msgIsFirst   0x0006fe    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 msgIs2nd   0x000730    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 msgIsNew   0x000764    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-            msgIsComplete   0x000798    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 msgCheck   0x0007cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             msgParseAddr   0x000936    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          msgParseForCmds   0x000b10    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-            msgAddCommand   0x000c7c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          msgGetsResponse   0x000f64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          msgSetRespParam   0x0012a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-        initializeMojobus   0x0013a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             MessageReady   0x0013ba    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                    MsgRx   0x0013da    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                   GetMsg   0x0013fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-            PrintCommands   0x001448    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             ExecCommands   0x0015b8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                  Respond   0x0017ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          ReadyForNextMsg   0x0017f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-          PrintCurrentMsg   0x001862    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             writeFromRom   0x001884    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-             writeFromRam   0x0018ee    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+            MojoWriteByte   0x000034    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          MojoWriteRomStr   0x000054    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          MojoWriteRamStr   0x0000a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             MojoReadByte   0x0000f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+        msgReadAddrEEPROM   0x000114    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                  msgInit   0x00012c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 msgReset   0x00024c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+           msgStoreRxByte   0x000310    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+      msgRemoveTrailingCR   0x000368    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                msgIncPtr   0x00038c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+         msgState2Waiting   0x0003ca    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+        msgState2RecFirst   0x0003f0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          msgState2Rec2nd   0x000418    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             msgState2New   0x000440    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+        msgState2Complete   0x000468    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              msgCpyFinal   0x000490    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                cmds_init   0x0004e4    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 cmd_init   0x000572    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          initializeUsart   0x0005bc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              msgRecStart   0x0005d6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                msgRecEnd   0x000612    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 msgForMe   0x00066c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             msgIsWaiting   0x0006cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               msgIsFirst   0x0006fe    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 msgIs2nd   0x000730    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 msgIsNew   0x000764    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+            msgIsComplete   0x000798    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 msgCheck   0x0007cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             msgParseAddr   0x000936    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          msgParseForCmds   0x000b10    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+            msgAddCommand   0x000c7c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          msgGetsResponse   0x000f64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          msgSetRespParam   0x0012a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+        initializeMojobus   0x0013a2    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             MessageReady   0x0013ba    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                    MsgRx   0x0013da    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                   GetMsg   0x0013fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+            PrintCommands   0x001448    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             ExecCommands   0x0015b8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                  Respond   0x0017ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          ReadyForNextMsg   0x0017f6    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+          PrintCurrentMsg   0x001862    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             writeFromRom   0x001884    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+             writeFromRam   0x0018ee    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
             s_put_n_chars   0x001934    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                  vfprintf   0x001960    program     extern C:\MCC18\src\traditional\stdclib\vfprintf.c
               __tmplbl_85   0x00198a    program     static                          
@@ -963,41 +963,41 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                   __pa_44   0x002536    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_45   0x002540    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_46   0x00254c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                   addFxn   0x002556    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-                  findFxn   0x0025fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-       initializeMojocmds   0x002704    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-                 NotFound   0x002b1e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-                      who   0x002b6a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-                     annc   0x002c0a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-                    setid   0x002cdc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               setErrResp   0x002e42    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                  setport   0x002e84    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                  settris   0x00307c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                    Hello   0x003254    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                    Blink   0x0032a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                  openAll   0x0032fa    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                 closeAll   0x0033ac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                     setR   0x00345e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                  getPort   0x00358c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-                  getTris   0x00361c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-               setBitHigh   0x0036ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-                setBitLow   0x003726    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-             setBitToggle   0x0037a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-         setBitFromSParam   0x003818    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-                     load   0x003956    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-                  standby   0x0039f8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-                  deliver   0x003a9a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-                 RDMSetup   0x003c2e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-              RDM2Standby   0x003c36    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-                 RDM2Load   0x003c3e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-               RDM2Manual   0x003c46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-            RDMSetReagent   0x003c4e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-              RDM2Deliver   0x003c64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-               RDMDeliver   0x003c6c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-                   RDMRun   0x003c9c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-         asciiHexToNibble   0x003ccc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
-           asciiHexToBtye   0x003dac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
-           byteToAsciiHex   0x003e5a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
+                   addFxn   0x002556    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+                  findFxn   0x0025fc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+       initializeMojocmds   0x002704    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+                 NotFound   0x002b1e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+                      who   0x002b6a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+                     annc   0x002c0a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+                    setid   0x002cdc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               setErrResp   0x002e42    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                  setport   0x002e84    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                  settris   0x00307c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                    Hello   0x003254    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                    Blink   0x0032a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                  openAll   0x0032fa    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                 closeAll   0x0033ac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                     setR   0x00345e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                  getPort   0x00358c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+                  getTris   0x00361c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+               setBitHigh   0x0036ae    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+                setBitLow   0x003726    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+             setBitToggle   0x0037a0    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+         setBitFromSParam   0x003818    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+                     load   0x003956    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+                  standby   0x0039f8    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+                  deliver   0x003a9a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+                 RDMSetup   0x003c2e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+              RDM2Standby   0x003c36    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+                 RDM2Load   0x003c3e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+               RDM2Manual   0x003c46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+            RDMSetReagent   0x003c4e    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+              RDM2Deliver   0x003c64    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+               RDMDeliver   0x003c6c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+                   RDMRun   0x003c9c    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+         asciiHexToNibble   0x003ccc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\asciiConvert.c
+           asciiHexToBtye   0x003dac    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\asciiConvert.c
+           byteToAsciiHex   0x003e5a    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\asciiConvert.c
                    strcat   0x003f6e    program     extern C:\MCC18\src\traditional\stdclib\strcat.asm
                 jNullLoop   0x003f96    program     static C:\MCC18\src\traditional\stdclib\strcat.asm
                     jLoop   0x003f9c    program     static C:\MCC18\src\traditional\stdclib\strcat.asm
@@ -1067,69 +1067,69 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                     jLoop   0x0043e6    program     static C:\MCC18\src\traditional\stdclib\itobcd.asm
                      jEnd   0x00440c    program     static C:\MCC18\src\traditional\stdclib\itobcd.asm
                   OneByte   0x004410    program     static C:\MCC18\src\traditional\stdclib\itobcd.asm
-                 strtok_r   0x004422    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\strtok_r.c
-               __string_2   0x00458e    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-               __string_1   0x004597    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-               __string_0   0x00459e    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-               __string_0   0x0045a8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
-              __string_33   0x0045ba    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_32   0x0045c4    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_31   0x0045c8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_30   0x0045cb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_29   0x0045cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_28   0x0045d7    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_27   0x0045dd    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_26   0x0045e3    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_25   0x0045e8    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_24   0x0045eb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_23   0x0045ee    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_22   0x0045f1    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_21   0x0045f4    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_20   0x0045f7    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_19   0x0045fa    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_18   0x004601    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_17   0x004607    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_16   0x00460d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_15   0x004613    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_14   0x004619    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_13   0x00461f    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_12   0x004625    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_11   0x00462b    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_10   0x004631    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_9   0x004637    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_8   0x00463d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_7   0x004643    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_6   0x004649    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_5   0x00464f    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_4   0x004655    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_3   0x00465b    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_2   0x004660    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_1   0x004664    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-               __string_0   0x004667    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-              __string_13   0x00466a    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              __string_12   0x004673    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              __string_11   0x004675    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              __string_10   0x00467c    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_9   0x00469a    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_8   0x00469d    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_7   0x0046a5    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_6   0x0046ac    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_5   0x0046ae    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_4   0x0046b0    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_3   0x0046b9    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_2   0x0046bb    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_1   0x0046bd    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_0   0x0046bf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               __string_2   0x0046c0    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-               __string_1   0x0046cc    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-               __string_0   0x0046cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                 strtok_r   0x004422    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\strtok_r.c
+               __string_2   0x00458e    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+               __string_1   0x004597    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+               __string_0   0x00459e    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+               __string_0   0x0045a8    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
+              __string_33   0x0045ba    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_32   0x0045c4    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_31   0x0045c8    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_30   0x0045cb    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_29   0x0045cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_28   0x0045d7    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_27   0x0045dd    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_26   0x0045e3    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_25   0x0045e8    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_24   0x0045eb    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_23   0x0045ee    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_22   0x0045f1    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_21   0x0045f4    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_20   0x0045f7    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_19   0x0045fa    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_18   0x004601    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_17   0x004607    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_16   0x00460d    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_15   0x004613    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_14   0x004619    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_13   0x00461f    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_12   0x004625    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_11   0x00462b    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_10   0x004631    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_9   0x004637    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_8   0x00463d    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_7   0x004643    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_6   0x004649    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_5   0x00464f    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_4   0x004655    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_3   0x00465b    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_2   0x004660    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_1   0x004664    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+               __string_0   0x004667    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+              __string_13   0x00466a    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              __string_12   0x004673    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              __string_11   0x004675    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              __string_10   0x00467c    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_9   0x00469a    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_8   0x00469d    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_7   0x0046a5    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_6   0x0046ac    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_5   0x0046ae    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_4   0x0046b0    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_3   0x0046b9    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_2   0x0046bb    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_1   0x0046bd    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_0   0x0046bf    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               __string_2   0x0046c0    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+               __string_1   0x0046cc    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+               __string_0   0x0046cf    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
              strtokpgmram   0x0046da    program     extern C:\MCC18\src\traditional\stdclib\stokpr.c
                    __pa_0   0x0047d6    program     static C:\MCC18\src\traditional\stdclib\stokpr.c
                    __pa_1   0x0047e4    program     static C:\MCC18\src\traditional\stdclib\stokpr.c
                    __pa_2   0x0047f8    program     static C:\MCC18\src\traditional\stdclib\stokpr.c
-                     main   0x004806    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
-               rx_handler   0x004834    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
-                    setup   0x0048cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+                     main   0x004806    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
+               rx_handler   0x004834    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
+                    setup   0x0048cc    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
                   sprintf   0x0048f4    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
                 _do_cinit   0x0049a0    program     extern C:\MCC18\src\traditional\startup\c018i.c
                      test   0x0049ba    program     static                          
@@ -1140,7 +1140,7 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                      done   0x004a3c    program     static                          
                Open1USART   0x004a3e    program     extern C:\MCC18\src\pmc_common\USART\u1open.c
                      putc   0x004ac2    program     extern C:\MCC18\src\traditional\stdclib\putc.c
-                isNumeric   0x004b46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\isNumeric.c
+                isNumeric   0x004b46    program     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\isNumeric.c
                   FXM3232   0x004bc2    program     extern C:\MCC18\src\traditional\math\fxm3232.c
        ___return_lbl00000   0x004c30    program     static                          
               Write_b_eep   0x004c32    program     extern C:\MCC18\src\pmc_common\EEP\write_B.c
@@ -1175,9 +1175,9 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                clear_loop   0x004eaa    program     static C:\MCC18\src\traditional\proc\p18F8722.asm
                  Busy_eep   0x004eb2    program     extern C:\MCC18\src\pmc_common\EEP\busy_eep.c
                    __init   0x004eb8    program     extern C:\MCC18\src\traditional\stdclib\__init.c
-               __config_0   0x300001    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
-               __config_1   0x300003    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
-               __config_2   0x300006    program     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\main.c
+               __config_0   0x300001    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
+               __config_1   0x300003    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
+               __config_2   0x300006    program     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\main.c
                   __REMB3   0x000000       data     extern C:\MCC18\src\traditional\math\aarg.asm
                  __AARGB7   0x000000       data     extern C:\MCC18\src\traditional\math\aarg.asm
                   __REMB2   0x000001       data     extern C:\MCC18\src\traditional\math\aarg.asm
@@ -1204,7 +1204,7 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                  __TEMPB1   0x000012       data     extern C:\MCC18\src\traditional\math\temparg.asm
                    __TEMP   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
                  __TEMPB0   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
                   __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\USART\u1open.c
                   __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\EEP\read_B.c
                   __tmp_0   0x000014       data     static C:\MCC18\src\pmc_common\EEP\write_B.c
@@ -1212,35 +1212,35 @@ Linker Map File - Created Wed Sep 30 13:44:34 2009
                   __tmp_0   0x000014       data     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __tmp_0   0x000014       data     static C:\MCC18\src\traditional\stdclib\stokpr.c
                   __tmp_0   0x000014       data     static C:\MCC18\src\traditional\stdclib\sprintf.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\strtok_r.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\ports.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\asciiConvert.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\isNumeric.c
-                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\strtok_r.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\ports.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\asciiConvert.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\isNumeric.c
+                  __tmp_0   0x000014       data     static C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
             DelayCounter2   0x00001e       data     extern C:\MCC18\src\traditional\delays\delayd2.asm
             DelayCounter1   0x00001f       data     extern C:\MCC18\src\traditional\delays\delayd1.asm
-               sendBuffer   0x000100       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                 commands   0x000200       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
+               sendBuffer   0x000100       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                 commands   0x000200       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
                      prom   0x0003f5       data     static C:\MCC18\src\traditional\startup\c018i.c
                 curr_byte   0x0003f8       data     static C:\MCC18\src\traditional\startup\c018i.c
                curr_entry   0x0003fa       data     static C:\MCC18\src\traditional\startup\c018i.c
                  data_ptr   0x0003fc       data     static C:\MCC18\src\traditional\startup\c018i.c
             USART1_Status   0x0003ff       data     extern C:\MCC18\src\pmc_common\USART\u1defs.c
-                  execmds   0x000400       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojocmd.c
-                 msgstate   0x0005f1       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                     pmsg   0x0005f2       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                     pcmd   0x0005f4       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                  sendPtr   0x0005f6       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                      rdm   0x0005f8       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
+                  execmds   0x000400       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojocmd.c
+                 msgstate   0x0005f1       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                     pmsg   0x0005f2       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                     pcmd   0x0005f4       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                  sendPtr   0x0005f6       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                      rdm   0x0005f8       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
                    PreStr   0x0005fa       data     static C:\MCC18\src\traditional\stdclib\stokpr.c
-                     addy   0x0005fc       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               MAXREAGENT   0x0005fd       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\RDMcmds.c
-                msgBuffer   0x000600       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-              cmpltmsgbuf   0x000700       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-                      msg   0x000f00       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\mojomsg.c
-               cmdRespBuf   0x000f13       data     extern C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\cmds.c
+                     addy   0x0005fc       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               MAXREAGENT   0x0005fd       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\RDMcmds.c
+                msgBuffer   0x000600       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+              cmpltmsgbuf   0x000700       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+                      msg   0x000f00       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\mojomsg.c
+               cmdRespBuf   0x000f13       data     extern C:\Documents and Settings\hherman\My Documents\PIC\rdm\cmds.c
              SSP2CON2bits   0x000f62       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
                  SSP2CON2   0x000f62       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm
                  SSP2CON1   0x000f63       data     extern C:\MCC18\src\traditional\proc\p18F8722.asm

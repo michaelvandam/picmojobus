@@ -20,7 +20,7 @@ char* load(char * sparam, char * callname) {
     if (strlen(sparam)>0) {
         strcpypgm2ram(cmdRespBuf,SBADPARAM);
     } else {
-        strcpypgm2ram(cmdRespBuf,"GO");
+        strcpypgm2ram(cmdRespBuf,"DONE");
     }
     return cmdRespBuf;
 }    
@@ -30,7 +30,7 @@ char* standby(char *sparam, char *callname) {
     if (strlen(sparam)>0) {
         strcpypgm2ram(cmdRespBuf,SBADPARAM);
     } else {
-        strcpypgm2ram(cmdRespBuf,"GO");
+        strcpypgm2ram(cmdRespBuf,"DONE");
     }
     return cmdRespBuf;
 }

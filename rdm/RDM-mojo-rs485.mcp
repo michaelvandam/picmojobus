@@ -5,8 +5,8 @@ device=PIC18F8722
 [PATH_INFO]
 BuildDirPolicy=BuildDirIsProjectDir
 dir_src=
-dir_bin=
-dir_tmp=C:\Documents and Settings\hherman\My Documents\PIC\mojo-rs485\intermediate
+dir_bin=C:\Documents and Settings\hherman\My Documents\PIC\rdm\output
+dir_tmp=C:\Documents and Settings\hherman\My Documents\PIC\rdm\intermediate
 dir_sin=
 dir_inc=C:\MCC18\h
 dir_lib=C:\MCC18\lib
