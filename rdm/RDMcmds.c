@@ -64,6 +64,7 @@ void RDMSetup(void) {
 }
 
 void RDM2Standby(void) {
+    RDMVALVES=0x00;
     rdm.state=STANDBY;
 }
 
@@ -84,16 +85,16 @@ void RDM2Deliver(void) {
 void RDMDeliver(void) {
     switch (rdm.selectReagent) {
         case REAGENT1:
-            RDMVALVES=0x01;
+            RDMVALVES=0b10000001;
             break;
         case REAGENT2:
-            RDMVALVES=0x02;
+            RDMVALVES=0b01000010;
             break;
         case REAGENT3:
-            RDMVALVES=0x03;
+            RDMVALVES=0b00100100;
             break;
         case REAGENT4:
-            RDMVALVES=0x04;
+            RDMVALVES=0b00011000;
             break;
         default:
             break;
@@ -105,7 +106,6 @@ void RDMRun(void) {
     
     switch(rdm.state) {
         case STARTUP:
-            RDMVALVES=0xFF;
             RDM2Standby();
             break;
         case STANDBY: //Waiting for command put maintaince routines here
