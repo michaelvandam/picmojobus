@@ -1,0 +1,3 @@
+Error[1034] C:\Documents and Settings\hherman\My Documents\PIC\cpm-1\mojoparse.h 8 : previous definition of macro 'MAXCOMMANDS' does not agree
+Error[1034] C:\Documents and Settings\hherman\My Documents\PIC\cpm-1\mojoparse.h 9 : previous definition of macro 'MAXCOMMANDLEN' does not agree
+Error[1034] C:\Documents and Settings\hherman\My Documents\PIC\cpm-1\mojoparse.h 10 : previous definition of macro 'MAXPARAMLEN' does not agree
