@@ -1,0 +1,1 @@
+Firmware for a PIC18f8722 Microcontroller to be controlled by commands from serial commands on USART.
